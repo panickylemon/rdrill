@@ -58,7 +58,7 @@ a{
 	text-decoration: none;
 }
 
-a:hover, a:active {
+a:hover, a:active, a:focus {
 	outline: 0;
 	text-decoration: none;
 }

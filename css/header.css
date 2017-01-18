@@ -1,5 +1,7 @@
-.header-wrap{
-    margin-top: 20px;
+.header-wrap {
+    width: 100%;
+    max-width: 1300px;
+    margin: 20px auto 0;
 }
 
 .header {
@@ -8,7 +10,7 @@
 
 .header__logo {
     float: left;
-    width: 34%;
+    width: 30%;
 }
 
 .header__logo-img {
@@ -18,7 +20,7 @@
 
 .header__phone {
     float: left;
-    width: 50%;
+    width: 44%;
 }
 
 .header__phone-item {
@@ -39,44 +41,59 @@
     color: #d5151a;
 }
 
-.header__phone-description{
+.header__phone-description {
     font-size: 13px;
     font-weight: 300;
     color: #666666;
 }
 
-.header__feedback-link{
+.header__feedback-link {
     font-size: 15px;
     font-weight: 600;
     color: #333333;
 }
 
-.header__feedback-link:hover{
+.header__feedback-link:hover, .header__feedback-link:focus {
     color: #d5151a;
 }
 
-.header__search-text{
+.header__feedback-text {
     border-bottom: 1px solid #d7d7d7;
 }
 
-.b-search__button{
+.header__feedback-icon {
+    display: inline-block;
+    width: 28px;
+    height: 22px;
+    vertical-align: bottom;
+    background: url("../image/icons/mail-icon.png") no-repeat;
+}
+
+.header__search label {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 300;
+    color: #999999;
+}
+
+.b-search__button {
     width: 30px;
     height: 30px;
     border: none;
     background: url("../image/icons/search-icon.png") no-repeat 100% 0;
 }
 
-
-.feedback-search{
+.feedback-search {
     position: absolute;
     right: 0;
     top: 0;
 }
 
-.header__feedback{
+.header__feedback {
     display: inline-block;
+    margin-right: 40px;
 }
 
-.header__search{
+.header__search {
     display: inline-block;
 }
