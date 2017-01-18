@@ -47,6 +47,12 @@
     color: #666666;
 }
 
+.feedback-search {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 .header__feedback-link {
     font-size: 15px;
     font-weight: 600;
@@ -65,35 +71,74 @@
     display: inline-block;
     width: 28px;
     height: 22px;
+    margin-right: 14px;
     vertical-align: bottom;
     background: url("../image/icons/mail-icon.png") no-repeat;
 }
 
-.header__search label {
-    font-size: 13px;
-    font-style: italic;
-    font-weight: 300;
-    color: #999999;
-}
-
-.b-search__button {
-    width: 30px;
-    height: 30px;
-    border: none;
-    background: url("../image/icons/search-icon.png") no-repeat 100% 0;
-}
-
-.feedback-search {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
 .header__feedback {
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 100px;
+    margin-top: 10px;
+    vertical-align: top;
 }
 
 .header__search {
+    position: relative;
+    top: -5px;
     display: inline-block;
+}
+
+.b-search__button {
+    position: relative;
+    z-index: 5;
+    display: inline-block;
+    width: 45px;
+    height: 55px;
+    border: none;
+    background: url("../image/icons/search-icon.png") no-repeat 0 center;
+    cursor: pointer;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.b-search__expand{
+    position: absolute;
+    right: 27px;
+    height: 55px;
+    border: none;
+    padding: 10px 0;
+    width: 60px;
+    z-index: 1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+input.b-search__expand:focus{
+    width: 360px;
+    padding: 10px 15px;
+    background: red;
+}
+
+.b-search__button--focus{
+    background: red url("../image/icons/search-white.png") no-repeat 0 center;
+}
+
+
+
+
+input.b-search__expand:focus[placeholder] {
+    color: #ffffff;
+}
+
+input.b-search__expand:focus::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+input.b-search__expand:focus::-moz-placeholder {
+    color: #ffffff;
 }
