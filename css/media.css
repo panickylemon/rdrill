@@ -75,6 +75,12 @@
 
 }
 
+@media screen and (min-width: 661px) {
+	.header__menu{
+		display: block !important;
+	}
+}
+
 @media screen and (max-width: 660px) {
 	.feedback-search {
 		position: static;
@@ -95,8 +101,12 @@
 		position: absolute;
 		top: -20px;
 		left: 0;
+		z-index: 5000;
 		background: rgba(255, 255, 255, 0.97);
 		border-bottom: 1px solid #dedede;
+		-moz-box-shadow: 0 2px 45px 0 #000000;
+		-webkit-box-shadow: 0 2px 45px 0 #000000;
+		box-shadow: 0 2px 45px 0 #000000;
 	}
 
 	.header__menu-list {
