@@ -94,3 +94,22 @@
 .owl-theme .owl-dots .owl-dot:hover span {
     background: #fc0013;
 }
+
+
+.home-about{
+    background: #f0f0f0;
+}
+
+.home-about__image{
+    float: left;
+    width: 40%;
+}
+
+.home-about__text{
+    float: left;
+    width: 60%;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 300;
+}
+
