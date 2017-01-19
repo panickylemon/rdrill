@@ -5,7 +5,9 @@ $(document ).ready(function() {
         $(this).attr("placeholder", "Введите запрос");
     })
     .blur(function(e){
-        $("#search-button").removeClass("b-search__button--focus");
+        setTimeout(function(){
+            $("#search-button").removeClass("b-search__button--focus");
+        },300);
         $(this).attr("placeholder", "Поиск");
     });
 });
