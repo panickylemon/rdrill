@@ -11,6 +11,8 @@
     <link rel="icon" href="image/icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel='stylesheet' href='css/normalize.css'>
+    <link rel='stylesheet' href='css/owl.carousel.min.css'>
+    <link rel='stylesheet' href='css/owl.theme.default.min.css'>
     <link rel='stylesheet' href='css/typography.css'>
     <link rel='stylesheet' href='css/base.css'>
     <link rel='stylesheet' href='css/header.css'>
@@ -20,6 +22,7 @@
     <link rel='stylesheet' href='css/media.css'>
     <script src="js/jquery-2.0.0.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body>
@@ -34,7 +37,7 @@
                             <img class="header__logo-img" src="image/icons/logo.png" alt="Rotabroach">
                         </a>
                     </div>
-                    <div class="header__phone">
+                    <div class="header__phone clearfix">
                         <div class="header__phone-item">
                             <p class="header__phone-number">8 (800) <span
                                     class="header__phone-item--red">775-87-95</span></p>
@@ -47,7 +50,278 @@
                         </div>
                     </div>
                 </div>
+                <div class="header__menu-burger">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <p class="icon-close"></p>
+                </div>
                 <div class="header__menu">
+                    <nav class="header__navigation">
+                        <ul class="header__menu-list clearfix">
+                            <li class="header__menu-item dropdown">
+                                <a class="header__menu-link" href="#">
+                                    О компании
+                                </a>
+                                <ul class="header__submenu-list dropdown-menu">
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            О бренде Rotabroach
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Качество Rotabroach
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Технологии Custmart
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Гарантия
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Новости
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Статьи
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Представительство в России
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Отзывы клиентов
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Условия сотрудничества
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Акции
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link" href="#">
+                                    Станки
+                                </a>
+                            </li>
+                            <li class="header__menu-item dropdown">
+                                <a class="header__menu-link" href="#">
+                                    Сверла
+                                </a>
+                                <ul class="header__submenu-list dropdown-menu">
+
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Сверла из быстрорежущей стали
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Сверла с напаянными пластинами
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Твердосплавные коронки
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Спиральные сверла (Weldon 19,05)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Мини-сверла
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Железнодорожные сверла HSS (SRCV)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Железнодорожные сверла TCT (SCRWC)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Железнодорожные спиральные сверла
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Заточка сверл
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__menu-item dropdown">
+                                <a class="header__menu-link" href="#">
+                                    Аксессуары
+                                </a>
+                                <ul class="header__submenu-list dropdown-menu">
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Фаскосъемники (зенковки)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Переходники Морзе/Weldon
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Удлинительные шпиндели
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Адаптеры под спиральные сверла
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Стержень для удаления стружки
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Переходник Weldon / Quick-in (Fein) / One Touch (Nitto)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Адаптер для сверления труб
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Смазочно-охлаждающие материалы
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Вакуумная подставка для станка
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__menu-item dropdown">
+                                <a class="header__menu-link" href="#">
+                                    Помощь
+                                </a>
+                                <ul class="header__submenu-list dropdown-menu">
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Инструкции
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Устранение неполадок
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Полезные советы
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Рекомендации по скорости сверления
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Статьи
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__menu-item dropdown">
+                                <a class="header__menu-link" href="#">
+                                    Сверление рельс
+                                </a>
+                                <ul class="header__submenu-list dropdown-menu">
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Rhino 4
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Rhino 2
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Rhino E
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Железнодорожные сверла HSS (SRCV)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Железнодорожные сверла ТСТ (SCRWC)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Железнодорожные спиральные сверла
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Захват для трамвайных рельс
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Шаблон для сверления без разметки
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__submenu-link" href="#">
+                                            Шаблон для сверления (P50, P65)
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link" href="#">
+                                    Доставка
+                                </a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link" href="#">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                     <div class="feedback-search">
                         <div class="header__feedback">
                             <a class="header__feedback-link" href="#">
@@ -57,16 +331,12 @@
                         </div>
                         <div class="header__search">
                             <form action="" id="search-form">
-                                <input class="b-search__expand" type="search" placeholder="поиск">
+                                <input class="b-search__expand" type="search" placeholder="Поиск">
                                 <input class="b-search__button" name="submit" type="submit"
-                                       value=""
-                                       id="search-button">
+                                       value="" id="search-button">
                             </form>
                         </div>
                     </div>
-                    <nav class="header__navigation">
-
-                    </nav>
 
                 </div>
             </div>
@@ -74,7 +344,12 @@
     <!--—END HEADER -->
     <main class="content">
         <div class="l-container">
-
+            <div class="owl-carousel owl-theme">
+                <div> Your Content 1 </div>
+                <div> Your Content 2 </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+            </div>
 
         </div>
     </main>
