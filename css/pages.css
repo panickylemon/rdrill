@@ -71,12 +71,14 @@
 }
 
 
-.main-slider .owl-theme .owl-nav.disabled + .owl-dots {
-    margin: 0;
+.wrapper-dots{
+    width: 100%;
+    max-width: 1600px;
     position: absolute;
     bottom: 15px;
-    right: 0;
+    left: 37%;
 }
+
 
 .owl-theme .owl-dots .owl-dot span {
     width: 60px;
