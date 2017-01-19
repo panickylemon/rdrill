@@ -1,0 +1,115 @@
+/* BEGIN HOME PAGE */
+
+.main-slider {
+    position: relative;
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.main-slider__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.main-slider__item {
+    height: 542px;
+}
+
+.main-slider__item-first {
+    background: url("../image/base/slide1.jpg") no-repeat;
+}
+
+.main-slider__item-second {
+    background: url("../image/base/slide1.jpg") no-repeat;
+}
+
+.main-slider__item-third {
+    background: url("../image/base/slide2.jpg") no-repeat 75%;
+}
+
+.main-slider__item-fourth {
+    background: url("../image/base/slide_spb.jpg") no-repeat;
+}
+
+.main-slider__text {
+    position: absolute;
+    bottom: 15%;
+    display: block;
+    max-width: 470px;
+    padding: 30px;
+    cursor: pointer;
+    background: #fc0013;
+    border: 4px solid #ffffff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.main-slider__text-large {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.main-slider__text-small {
+    margin: 10px 0 0;
+    font-size: 15px;
+    line-height: 1.3;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.main-slider__text-large:hover, .main-slider__text-large:focus,
+.main-slider__text-small:hover, .main-slider__text-small:focus {
+    color: #ffffff;
+}
+
+
+.main-slider .owl-theme .owl-nav.disabled + .owl-dots {
+    margin: 0;
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 60px;
+    height: 2px;
+    margin: 0 5px;
+    background: #ffffff;
+    border-radius: 0;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    height: 5px;
+    background: #fc0013;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #fc0013;
+}
+
+
+.home-about{
+    background: #f0f0f0;
+}
+
+.home-about__image{
+    float: left;
+    width: 40%;
+}
+
+.home-about__text{
+    float: left;
+    width: 60%;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 300;
+}
+

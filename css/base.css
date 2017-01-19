@@ -97,4 +97,9 @@ a:hover, a:active, a:focus {
 	clear: both;
 }
 
+strong{
+	color: #333333;
+	font-weight: 600;
+}
+
 
