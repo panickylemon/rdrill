@@ -20,8 +20,16 @@ $(document ).ready(function() {
 
     $(".header__menu-burger").click(function() {
         $(".header__menu").slideToggle("slow");
-        $(".icon-bar").hide();
-        $(".icon-close").show();
+        if( $('.icon-bar').is(':visible') ) {
+            $(".icon-bar").hide();
+        } else {
+            $(".icon-bar").delay(500).fadeIn(100);
+        }
+        if( $('.icon-close').is(':visible') ) {
+            $(".icon-close").delay(300).fadeOut(100);
+        } else {
+            $(".icon-close").show();
+        }
     });
 
 
