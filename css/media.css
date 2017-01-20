@@ -87,6 +87,15 @@
     .marketing-block__text {
         font-size: 26px;
     }
+
+    .advantages-numbering {
+        margin: 0 0 5px;
+        font-size: 20px;
+    }
+
+    .advantages-title {
+        margin: 0 0 15px;
+    }
 }
 
 @media screen and (max-width: 860px) {
@@ -145,6 +154,13 @@
         width: 100% !important;
     }
 
+    .advantages-wrap {
+        padding: 60px 0 20px;
+    }
+
+    .advantages-item {
+        margin-bottom: 30px;
+    }
 }
 
 
@@ -311,7 +327,37 @@
         padding: 20px 30px;
     }
 
+    .wrap-offers {
+        margin-bottom: 80px;
+    }
+    .advantages-text {
+        width: 100%;
+        float: none;
+        text-align: left;
+    }
+
+    .advantages-image {
+       display: none;
+    }
+
+    .advantages-description {
+        padding: 0;
+    }
+
+    .advantages-numbering, .advantages-title{
+        text-align: center;
+    }
+
+    .advantages-wrap h2 {
+        margin-bottom: 40px;
+    }
+
+    .advantages-title {
+        font-size: 18px;
+        font-weight: 600;
+    }
 }
+
 
 @media screen and (max-width: 480px) {
     .header__phone-item {
@@ -370,6 +416,10 @@
     input.b-search__expand:focus {
         width: 100%;
         background: #fc0013;
+    }
+
+    .advantages-wrap {
+        padding: 40px 0 0;
     }
 }
 
