@@ -42,6 +42,12 @@ $(document).ready(function () {
         // autoplayTimeout:2000, //Время смены слайда
     });
 
+    $('#www').owlCarousel({
+        // items: 4,
+        // loop: true, //Зацикливаем слайдер
+        // nav: true //Отключена навигация
+    });
+
 
     // Tab
     $('#productsTab').easyResponsiveTabs({
