@@ -45,6 +45,7 @@ $(document).ready(function () {
     $('#news-slider').owlCarousel({
         loop: true,
         nav: true,
+        navText: false,
         responsive: {
             0: {
                 items: 1
