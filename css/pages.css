@@ -3,7 +3,7 @@
 .main-slider {
     position: relative;
     width: 100%;
-    max-width: 1600px;
+    /*max-width: 1920px;*/
     margin: auto;
 }
 
@@ -16,6 +16,8 @@
 
 .main-slider__item {
     height: 542px;
+    /*background-size: cover;*/
+    background-size: 100% !important;
 }
 
 .main-slider__item-first {
@@ -99,19 +101,50 @@
 
 
 .home-about{
+    padding: 80px 0;
     background: #f0f0f0;
 }
 
 .home-about__image{
     float: left;
-    width: 40%;
+    width: 45%;
+    text-align: center;
+}
+
+.home-about__image img{
+    width: 100%;
+    max-width: 430px;
 }
 
 .home-about__text{
     float: left;
-    width: 60%;
+    width: 55%;
+    padding: 0 35px;
     font-size: 16px;
     color: #666666;
     font-weight: 300;
 }
 
+.home-about__text h2{
+    margin: 30px 0 30px;
+}
+
+.home-products{
+    padding: 70px 0;
+}
+
+.home-products__icon{
+    text-align: center;
+}
+
+.home-products__icon span{
+    display: inline-block;
+    width: 65px;
+    height: 70px;
+    background: url("../image/icons/product-icon.png") no-repeat;
+}
+
+
+.home-products h2{
+    text-align: center;
+}

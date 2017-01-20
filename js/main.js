@@ -53,4 +53,9 @@ $(document ).ready(function() {
         }
     });
 
+    // $('#demoTab').easyResponsiveTabs({ tabidentify: 'vert' });
+    // $('#myTab').tabCollapse({
+    //     tabsClass: 'hidden-sm hidden-xs',
+    //     accordionClass: 'visible-sm visible-xs'
+    // });
 });
