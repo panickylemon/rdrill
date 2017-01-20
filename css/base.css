@@ -103,3 +103,21 @@ strong{
 }
 
 
+.base-button{
+	display: inline-block;
+	text-transform: uppercase;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color: #ffffff;
+}
+
+.base-button:hover, .base-button:focus {
+	color: #ffffff;
+}
+
+.base-button--red{
+	background: #e40017;
+}
+
+
