@@ -43,18 +43,20 @@ $(document).ready(function () {
     });
 
     $('#news-slider').owlCarousel({
-         items: 4,
-         loop: true,
-         nav: true,
-        responsive:{ //Адаптация в зависимости от разрешения экрана
-            300:{
-                items:1
+        loop: true,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
             },
-            600:{
-                items:2
+            481: {
+                items: 2
             },
-            1000:{
-                items:4
+            861: {
+                items: 3
+            },
+            1140: {
+                items: 4
             }
         }
     });
