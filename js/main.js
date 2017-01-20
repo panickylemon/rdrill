@@ -33,7 +33,7 @@ $(document).ready(function () {
     });
 
 
-    $('.owl-carousel').owlCarousel({
+    $('#main-slider').owlCarousel({
         items: 1,
         loop: true, //Зацикливаем слайдер
         nav: false //Отключена навигация
@@ -42,10 +42,21 @@ $(document).ready(function () {
         // autoplayTimeout:2000, //Время смены слайда
     });
 
-    $('#www').owlCarousel({
-        // items: 4,
-        // loop: true, //Зацикливаем слайдер
-        // nav: true //Отключена навигация
+    $('#news-slider').owlCarousel({
+         items: 4,
+         loop: true,
+         nav: true,
+        responsive:{ //Адаптация в зависимости от разрешения экрана
+            300:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:4
+            }
+        }
     });
 
 
