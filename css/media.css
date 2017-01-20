@@ -83,6 +83,10 @@
     .offer-item {
         padding: 25px 20px 20px;
     }
+
+    .marketing-block__text {
+        font-size: 26px;
+    }
 }
 
 @media screen and (max-width: 860px) {
@@ -296,6 +300,15 @@
         font-size: 18px;
         font-weight: 600;
         margin: 25px 0 10px;
+    }
+
+    .marketing-block__text {
+        font-size: 22px;
+    }
+
+    .marketing-block__button {
+        margin-top: 30px;
+        padding: 20px 30px;
     }
 
 }

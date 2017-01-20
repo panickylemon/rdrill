@@ -293,7 +293,8 @@ h2.resp-accordion:first-child, h2.resp-accordion {
 
 
 .marketing-block__text{
-    margin: 0;
+    margin: 0 0 5px;
+    line-height: 1.1;
     font-size: 30px;
     font-weight: 900;
 }
@@ -304,9 +305,20 @@ h2.resp-accordion:first-child, h2.resp-accordion {
     padding: 24px 49px;
     font-size: 14px;
     font-weight: 900;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+
+.marketing-block__button:hover{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    opacity: 0.9;
+    background: #f84630;
 }
 
 
 .marketing-block__content{
-    padding: 60px 0;
+    padding: 60px 15px;
 }
