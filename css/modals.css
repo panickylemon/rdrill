@@ -79,6 +79,10 @@ input, textarea {
 	border-radius: 8px;
 }
 
+.l-modal{
+	z-index: 10000;
+}
+
 .modal-form__title {
 	margin-bottom: 40px;
 	text-align: center;
@@ -123,7 +127,8 @@ input, textarea {
 }
 
 .modal-dialog {
-	z-index: 2000;
+	z-index: 6000;
+	margin: 30px auto !important;
 }
 
 .modal-close{
@@ -134,4 +139,13 @@ input, textarea {
 	width: 18px;
 	height: 18px;
 	background: url("../image/icons/close-form.png") no-repeat;
+}
+
+
+.error-modal{
+	display: none;
+	margin: 0;
+	color: #ff0000;
+	font-style: italic;
+	font-size: 14px;
 }

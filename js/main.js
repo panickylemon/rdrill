@@ -83,4 +83,30 @@ $(document).ready(function () {
 
     $('textarea').autoResize();
 
+
+    $('#feeadback-form').submit( function() {
+        var error = false;
+        if (!$('#name').val()) {
+            $('.error-modal__name').show();
+            error = true;
+        } else {
+            $('.error-modal__name').hide();
+        }
+        if (!$('#phone').val()) {
+            $('.error-modal__phone').show();
+            error = true;
+        } else {
+            $('.error-modal__phone').hide();
+        }
+        if (!$('#email').val()) {
+            $('.error-modal__email').show();
+            error = true;
+        } else {
+            $('.error-modal__email').hide();
+        }
+        if (error) {
+            return false
+        }
+    })
+
 });

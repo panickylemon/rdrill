@@ -449,7 +449,22 @@
 		margin: 10px 0 0;
 		font-size: 13px;
 	}
+
+	.modal-form {
+		padding: 50px 40px;
+	}
+
+	.modal-form__title {
+		margin-bottom: 30px;
+		font-size: 26px;
+	}
+
+	.l-modal input, .l-modal textarea {
+		margin-bottom: 15px;
+	}
+
 }
+
 
 @media screen and (max-width: 480px) {
 	.header__phone-item {
@@ -559,6 +574,27 @@
 	.main-slider__text-large {
 		font-size: 16px;
 		font-weight: 300;
+	}
+
+	.modal-form {
+		padding: 50px 40px;
+	}
+
+	.modal-form__title {
+		margin-bottom: 30px;
+		font-size: 26px;
+	}
+
+	.l-modal input, .l-modal textarea {
+		margin-bottom: 15px;
+	}
+
+	.modal-form {
+		padding: 40px 20px;
+	}
+
+	.l-modal input, .l-modal textarea {
+		padding: 5px 0;
 	}
 }
 
