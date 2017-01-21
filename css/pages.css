@@ -3,7 +3,6 @@
 .main-slider {
 	position: relative;
 	width: 100%;
-	/*max-width: 1920px;*/
 	margin: auto;
 }
 
@@ -285,6 +284,10 @@ h2.resp-accordion:first-child, h2.resp-accordion {
 	background: url("../image/base/marketing-block-1.png");
 }
 
+.marketing-block-2 {
+	background: url("../image/base/marketing-block-2.png");
+}
+
 .marketing-block__container {
 	min-height: 290px;
 	background: rgba(0, 0, 0, 0.3);
@@ -527,3 +530,5 @@ h2.resp-accordion:first-child, h2.resp-accordion {
 	position: static;
 	margin-top: 45px;
 }
+
+/* END HOME PAGE */
