@@ -178,7 +178,6 @@
 	vertical-align: bottom;
 	cursor: pointer;
 	border: 1px solid transparent;
-	/*border: 1px solid red;*/
 }
 
 .product-tab-item:hover {
@@ -532,3 +531,127 @@ h2.resp-accordion:first-child, h2.resp-accordion {
 }
 
 /* END HOME PAGE */
+
+/* BEGIN NEWS PAGE */
+
+.about-sidebar {
+	float: left;
+	width: 250px;
+	margin-top: 8px;
+	border: 1px solid #e9eff1;
+}
+
+.about-sidebar__title {
+	padding: 20px 17px;
+	margin: 0;
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #666666;
+	border-bottom: 1px solid #e9eff1;
+}
+
+.about-sidebar__list {
+	padding: 0 0 0 17px;
+	margin: 10px 0;
+}
+
+.about-sidebar__list li {
+	position: relative;
+	padding: 7px 0;
+	list-style: none;
+}
+
+.about-sidebar__list-item {
+	font-size: 14px;
+	font-weight: 300;
+	color: #666666;
+}
+
+.about-sidebar__list-item:hover {
+	color: #fc0013;
+}
+
+.about-active {
+	color: #fc0013;
+}
+
+.about-active:before {
+	position: absolute;
+	left: -17px;
+	bottom: 3px;
+	display: inline-block;
+	content: '';
+	width: 2px;
+	height: 30px;
+	background: #fc0013;
+}
+
+.about-content {
+	margin-left: 320px;
+}
+
+.news-preview img {
+	width: 100%;
+	margin: 0 0 35px;
+}
+
+.news-preview__title{
+	margin: 0 0 10px;
+	font-size: 24px;
+	font-weight: 900;
+	color: #333333;
+}
+
+.news-preview__additional-info{
+	font-size: 16px;
+	font-weight: 300;
+	color: #666666;
+}
+
+.news-preview__date{
+	float: left;
+	margin: 0 65px 0 0;
+}
+
+.news-preview__author{
+	float: left;
+	margin: 0;
+}
+
+.news-preview__additional-title{
+	color: #bababa;
+}
+
+.news-preview__name{
+	border-bottom: 1px solid #c3c3c3;
+}
+
+.news-preview__text{
+	margin: 25px 0 0;
+	font-size: 16px;
+	font-weight: 300;
+	color: #666666;
+}
+
+.news-preview__text p{
+	margin: 0 0 15px;
+}
+
+.news-preview__wrap-button{
+	position: relative;
+	height: 50px;
+	margin-bottom: 60px;
+	border-bottom: 1px solid #e8eef0;
+}
+
+.news-preview__button{
+	position: absolute;
+	right: 0;
+	top: 24px;
+	padding: 13px 18px;
+}
+
+.button-arrows{
+	font-size: 19px;
+}

@@ -350,29 +350,176 @@
 	</header>
 	<!--—END HEADER -->
 	<main class="content">
+		<div class="l-container">
+			<ul class="breadcrumb">
+				<li class="breadcrumb-item"><a href="#">Главная</a></li>
+				<li class="breadcrumb-item"><a href="#">О компании</a></li>
+				<li class="breadcrumb-item active">Новости</li>
+			</ul>
+		</div>
+		<div class="l-container">
+			<div class="about-sidebar">
+				<nav class="about-menu">
+					<p class="about-sidebar__title">
+						О компании
+					</p>
+					<ul class="about-sidebar__list">
+						<li>
+							<a class="about-sidebar__list-item" href="#">
+								О бренде Rotabroach
+							</a>
+						</li>
+						<li>
+							<a class="about-sidebar__list-item" href="#">
+								Качество Rotabroach
+							</a>
+						</li>
+						<li>
+							<a class="about-sidebar__list-item" href="#">
+								Технологии Custmart
+							</a>
+						</li>
+						<li>
+							<a class="about-sidebar__list-item" href="#">
+								Гарантия
+							</a>
+						</li>
+						<li>
+							<a class="about-sidebar__list-item about-active" href="#">
+								Новости
+							</a>
+						</li>
+						<li>
+							<a class="about-sidebar__list-item" href="#">
+								Статьи
+							</a>
+						</li>
+						<li>
+							<a class="about-sidebar__list-item" href="#">
+								Представительство в России
+							</a>
+						</li>
+						<li>
+							<a class="about-sidebar__list-item" href="#">
+								Отзывы клиентов
+							</a>
+						</li>
+						<li>
+							<a class="about-sidebar__list-item" href="#">
+								Условия сотрудничества
+							</a>
+						</li>
+						<li>
+							<a class="about-sidebar__list-item" href="#">
+								Акции
+							</a>
+						</li>
+					</ul>
+				</nav>
+
+			</div>
+
+			<div class="about-content">
+				<h1>Новости</h1>
+
+				<div class="news-preview">
+					<img src="image/base/news-example.png" alt="">
+
+					<h2 class="news-preview__title">Итоги продаж за первый квартал 2016 года</h2>
+
+					<div class="news-preview__additional-info clearfix">
+						<p class="news-preview__date">
+							<span class="news-preview__additional-title">Дата</span>
+							<span>15.11.2016</span>
+						</p>
+
+						<p class="news-preview__author">
+							<span class="news-preview__additional-title">Автор:</span>
+							<span class="news-preview__name">Фамилия Имя</span>
+						</p>
+					</div>
+					<div class="news-preview__text">
+						<p>
+							Марка Rotabroach продолжает укрепляться на российском рынке сверлильного оборудования,
+							постоянно наращивая объем поставок.
+						</p>
+
+						<p>
+							Высоким результатам способствует надежное качество станков и комплектующих, а также
+							появление в ассортименте кольцевых корончатых пил с твердосплавными напаянными
+							пластинами, которые можно использовать не только для английских станков Rotabroach, но и
+							для аналогов - сверлильных машин и ручного инструмента других марок.
+						</p>
+					</div>
+					<div class="news-preview__wrap-button">
+						<a class="base-button base-button--grey news-preview__button" href="#">
+							Читать далее
+							<span class="button-arrows">»</span>
+						</a>
+					</div>
+
+				</div>
+
+				<div class="news-preview">
+
+					<h2 class="news-preview__title">Расширение ассортимента!</h2>
+
+					<div class="news-preview__additional-info clearfix">
+						<p class="news-preview__date">
+							<span class="news-preview__additional-title">Дата</span>
+							<span>15.11.2016</span>
+						</p>
+
+						<p class="news-preview__author">
+							<span class="news-preview__additional-title">Автор:</span>
+							<span class="news-preview__name">Фамилия Имя</span>
+						</p>
+					</div>
+					<div class="news-preview__text">
+						<p>
+							Компания Rotabroach расширила ассортимент кольцевых сверел с твердосплавными напаянными
+							пластинами - теперь в наличии диаметры 12 и 13 миллиметров. Бескомпромиссное решение для
+							сверления малодиаметральных отверстий в изделиях из плотного металла!
+						</p>
+					</div>
+					<div class="news-preview__wrap-button">
+						<a class="base-button base-button--grey news-preview__button" href="#">
+							Читать далее
+							<span class="button-arrows">»</span>
+						</a>
+					</div>
+
+				</div>
+			</div>
 
 
+		</div>
 	</main>
 </div>
 
 <div class="l-modal modal fade" id="feeadback-form" tabindex="-1" role="dialog">
 	<div class="b-modal modal-dialog" role="document">
 		<a href="#" class="modal-close" data-dismiss="modal"></a>
+
 		<form class="modal-form">
 			<p class="modal-form__title">
 				Обратная связь
 			</p>
+
 			<p class="error-modal error-modal__name">Обязательное поле!</p>
 			<label for="name">ФИО</label>
 			<input placeholder="ФИО*" type="text" name="name" id="name">
+
 			<p class="error-modal error-modal__phone">Обязательное поле!</p>
 			<label for="phone">Телефон для связи</label>
 			<input placeholder="Телефон для связи*" type="text" name="phone" id="phone">
+
 			<p class="error-modal error-modal__email">Обязательное поле!</p>
 			<label for="email">Email</label>
 			<input placeholder="Email" type="email" name="email" id="email">
 			<label for="comment">Комментарий</label>
 			<textarea placeholder="Дополнительный комментарий" name="comment" id="comment"></textarea>
+
 			<div class="wrap-button">
 				<button class="base-button base-button--red button-submit">Отправить</button>
 			</div>
@@ -519,5 +666,4 @@
 <!--—END FOOTER -->
 
 </body>
-</html>
 </html>

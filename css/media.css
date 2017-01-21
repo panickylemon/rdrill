@@ -1,4 +1,4 @@
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1270px) {
 	.news-slider .owl-prev {
 		left: -18px;
 	}
@@ -8,7 +8,7 @@
 	}
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1190px) {
 	.header__menu-item {
 		width: 25%;
 	}
