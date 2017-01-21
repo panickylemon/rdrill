@@ -23,10 +23,11 @@
 	<link rel='stylesheet' href='css/media.css'>
 	<script src="js/jquery-2.0.0.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="plugins/js/jquery.placeholder.js"></script>
 	<script src="plugins/js/owl.carousel.js"></script>
 	<script src="plugins/js/easyResponsiveTabs.js"></script>
+	<script src="plugins/js/jquery.textareaAutoResize.js"></script>
 	<script src="js/main.js"></script>
-
 </head>
 <body>
 
@@ -330,7 +331,7 @@
 				</nav>
 				<div class="feedback-search">
 					<div class="header__feedback">
-						<a class="header__feedback-link" href="#">
+						<a class="header__feedback-link" href="#feeadback-form" data-toggle="modal">
 							<span class="header__feedback-icon"></span>
 							<span class="header__feedback-text">Напишите нам</span>
 						</a>
@@ -918,6 +919,28 @@
 			</div>
 		</div>
 	</main>
+</div>
+
+<div class="l-modal modal fade" id="feeadback-form" tabindex="-1" role="dialog">
+	<div class="b-modal modal-dialog" role="document">
+		<a href="#" class="modal-close" data-dismiss="modal"></a>
+		<form class="modal-form">
+			<p class="modal-form__title">
+				Обратная связь
+			</p>
+			<label for="name">ФИО</label>
+			<input placeholder="ФИО*" type="text" name="name" id="name" required>
+			<label for="phone">Телефон для связи</label>
+			<input placeholder="Телефон для связи*" type="text" name="phone" id="phone" required>
+			<label for="email">Email</label>
+			<input placeholder="Email" type="email" name="email" id="email">
+			<label for="comment">Комментарий</label>
+			<textarea placeholder="Дополнительный комментарий" name="comment" id="comment"></textarea>
+			<div class="wrap-button">
+				<button class="base-button base-button--red button-submit">Отправить</button>
+			</div>
+		</form>
+	</div>
 </div>
 
 <!--—BEGIN FOOTER -->

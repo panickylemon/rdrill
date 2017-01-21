@@ -24,53 +24,6 @@ body {
 	opacity: 0;
 }
 
-input[type="text"],input[type="password"], textarea{
-	border-radius: 0 !important;
-	-webkit-border-radius: 0 !important;
-	-o-border-radius: 0 !important;
-	-moz-border-radius: 0 !important;
-	-khtml-border-radius: 0 !important;
-	-webkit-appearance: none;
-	line-height: inherit;
-}
-
-input[type="radio"] {
-	-webkit-appearance: radio;
-}
-
-input, textarea{
-	outline: none;
-}
-
-input[type=search] {
-	-webkit-appearance: textfield;
-}
-input::-webkit-search-decoration,
-input::-webkit-search-cancel-button {
-	display: none;
-}
-
-
-input[placeholder] {
-	color: #999999;
-	font-size: 13px;
-	text-overflow: ellipsis;
-}
-
-input::-webkit-input-placeholder {
-	color: #999999;
-	font-size: 13px;
-	text-overflow: ellipsis;
-}
-
-input::-moz-placeholder {
-	color: #999999;
-	opacity: 1 !important;
-	font-size: 13px;
-	text-overflow: ellipsis;
-}
-
-
 a img {
 	border: none;
 	outline: none !important;
@@ -80,7 +33,7 @@ a{
 	text-decoration: none;
 }
 
-a:hover, a:active, a:focus {
+a:hover, a:active, a:focus, button {
 	outline: 0;
 	text-decoration: none;
 }
