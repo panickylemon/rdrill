@@ -107,6 +107,31 @@ $(document).ready(function () {
         if (error) {
             return false
         }
-    })
+    });
+
+    //$('#questions-form').submit( function() {
+    //    var error = false;
+    //    if (!$('#name-questions').val()) {
+    //        $('.error-modal__name').show();
+    //        error = true;
+    //    } else {
+    //        $('.error-modal__name').hide();
+    //    }
+    //    if (!$('#phone-questions').val()) {
+    //        $('.error-modal__phone').show();
+    //        error = true;
+    //    } else {
+    //        $('.error-modal__phone').hide();
+    //    }
+    //    if (!$('#email-questions').val()) {
+    //        $('.error-modal__email').show();
+    //        error = true;
+    //    } else {
+    //        $('.error-modal__email').hide();
+    //    }
+    //    if (error) {
+    //        return false
+    //    }
+    //});
 
 });

@@ -417,6 +417,46 @@
 					</ul>
 				</nav>
 
+				<div class="wrap-interview">
+					<div class="interview-block">
+						<p class="sidebar__subtitle">
+							<strong>Какие сверла</strong> вы используете
+						</p>
+
+						<p class="question-img">?</p>
+
+						<form class="interview-form clearfix">
+							<div class="interview-form__item">
+								<label for="hss">HSS</label>
+								<input type="radio" name="drill" value="hss" id="hss">
+							</div>
+
+							<p class="interview-or">или</p>
+
+							<div class="interview-form__item">
+								<label for="tct">TST</label>
+								<input type="radio" name="drill" value="hss" id="tct">
+							</div>
+
+							<button class="base-button base-button--grey interview-form__submit" href="#">
+								Отправить
+							</button>
+						</form>
+					</div>
+				</div>
+
+				<div class="contact-manager">
+					<p class="sidebar__subtitle">
+						Есть <strong>вопросы?</strong>
+					</p>
+					<img class="contact-manager__image" src="image/base/muzhik.png" alt="менеджер">
+					<p class="contact-manager__text">
+						Свяжитесь с нашим менеджером по продажам
+					</p>
+					<a class="base-button base-button--red contact-manager__button" href="#questions-form"
+					   data-toggle="modal">Задать вопрос</a>
+				</div>
+
 			</div>
 
 			<div class="about-content">
@@ -519,6 +559,36 @@
 			<input placeholder="Email" type="email" name="email" id="email">
 			<label for="comment">Комментарий</label>
 			<textarea placeholder="Дополнительный комментарий" name="comment" id="comment"></textarea>
+
+			<div class="wrap-button">
+				<button class="base-button base-button--red button-submit">Отправить</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="l-modal modal fade" id="questions-form" tabindex="-1" role="dialog">
+	<div class="b-modal modal-dialog" role="document">
+		<a href="#" class="modal-close" data-dismiss="modal"></a>
+
+		<form class="modal-form">
+			<p class="modal-form__title">
+				Задать вопрос
+			</p>
+
+			<p class="error-modal error-modal__name">Обязательное поле!</p>
+			<label for="name">ФИО</label>
+			<input placeholder="ФИО*" type="text" name="name" id="name-questions">
+
+			<p class="error-modal error-modal__phone">Обязательное поле!</p>
+			<label for="phone">Телефон для связи</label>
+			<input placeholder="Телефон для связи*" type="text" name="phone" id="phone-questions">
+
+			<p class="error-modal error-modal__email">Обязательное поле!</p>
+			<label for="email">Email</label>
+			<input placeholder="Email" type="email" name="email" id="email-questions">
+			<label for="comment">Комментарий</label>
+			<textarea placeholder="Ваш вопрос" name="comment" id="comment-questions"></textarea>
 
 			<div class="wrap-button">
 				<button class="base-button base-button--red button-submit">Отправить</button>
