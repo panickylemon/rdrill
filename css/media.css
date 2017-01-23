@@ -58,6 +58,43 @@
 	.about-content {
 		margin-left: 290px;
 	}
+
+	.sales-leader__wrap-item {
+		float: none;
+		width: 100%;
+	}
+
+	.sales-leader__item {
+		width: 100%;
+		padding: 35px 80px;
+	}
+
+	.sales-leader__img {
+		max-width: 170px;
+		float: left;
+	}
+
+	.sales-leader__item p, .sales-leader__not-first .sales-raiting{
+		text-align: left;
+		margin-left: 170px;
+	}
+
+	.sales-leader__name {
+		display: inline-block;
+	}
+
+	.sales-raiting {
+		margin: 5px 0 0;
+	}
+
+	.sales-leader__button {
+		position: static;
+		-moz-transform: none;
+		-webkit-transform: none;
+		-o-transform: none;
+		-ms-transform: none;
+		 transform: none;
+	}
 }
 
 @media screen and (max-width: 1139px) {
