@@ -38,6 +38,10 @@ a:hover, a:active, a:focus, button {
 	text-decoration: none;
 }
 
+.l-wrapper{
+	margin-bottom: -20px;
+}
+
 .l-container {
 	width: 100%;
 	max-width: 1200px;

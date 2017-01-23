@@ -3,6 +3,7 @@ footer {
 	bottom: 0;
 	width: 100%;
 	background: #ffffff;
+	border-top: 1px solid #e8eef0;
 }
 
 .wrap-footer {
