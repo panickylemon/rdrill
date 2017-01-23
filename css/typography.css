@@ -64,6 +64,20 @@
 }
 
 @font-face {
+	font-family: "GothamPro";
+	src: url("../fonts/GothamPro/GothamProMediumItalic/GothamProMediumItalic.eot");
+	src: local('O'),
+	url("../fonts/GothamPro/GothamProMediumItalic/GothamProMediumItalic.eot") format("embedded-opentype"),
+	url("../fonts/GothamPro/GothamProMediumItalic/GothamProMediumItalic.woff") format("woff"),
+	url("../fonts/GothamPro/GothamProMediumItalic/GothamProMediumItalic.woff2") format("woff2"),
+	url("../fonts/GothamPro/GothamProMediumItalic/GothamProMediumItalic.ttf") format("truetype"),
+	url("../fonts/GothamPro/GothamProMediumItalic/GothamProMediumItalic.svg") format("svg");
+	font-weight: 600;
+	font-style: italic;
+}
+
+
+@font-face {
 	font-family: 'Glyphicons Halflings';
 	src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot');
 	src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),

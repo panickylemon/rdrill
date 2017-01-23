@@ -54,6 +54,47 @@
 	.offer-item {
 		padding: 25px 40px 20px 30px;
 	}
+
+	.about-content {
+		margin-left: 290px;
+	}
+
+	.sales-leader__wrap-item {
+		float: none;
+		width: 100%;
+	}
+
+	.sales-leader__item {
+		width: 100%;
+		padding: 35px 80px;
+	}
+
+	.sales-leader__img {
+		max-width: 170px;
+		float: left;
+	}
+
+	.sales-leader__item p, .sales-leader__not-first .sales-raiting{
+		text-align: left;
+		margin-left: 170px;
+	}
+
+	.sales-leader__name {
+		display: inline-block;
+	}
+
+	.sales-raiting {
+		margin: 5px 0 0;
+	}
+
+	.sales-leader__button {
+		position: static;
+		-moz-transform: none;
+		-webkit-transform: none;
+		-o-transform: none;
+		-ms-transform: none;
+		 transform: none;
+	}
 }
 
 @media screen and (max-width: 1139px) {
@@ -75,6 +116,27 @@
 @media screen and (max-width: 960px) {
 	h2 {
 		font-size: 26px;
+	}
+
+	h1 {
+		font-size: 32px;
+		margin: 0 0 30px;
+	}
+
+	.news-preview__title, .news-item__title {
+		font-size: 20px;
+	}
+
+	.about-sidebar {
+		margin-top: 6px;
+	}
+
+	.news-preview img {
+		margin: 0 0 25px;
+	}
+
+	.news-preview__text {
+		margin: 15px 0 0;
 	}
 
 	.home-about__text h2 {
@@ -144,7 +206,22 @@
 	.footer-submenu-list__item {
 		margin-bottom: 6px;
 	}
+
+	.pagination-next .pagination__text {
+		margin-left: 5px;
+	}
+
+	.pagination-prev .pagination__text {
+		margin-right: 5px;
+	}
+
+	.news-preview__text p, .news-item__text p {
+		margin: 0 0 15px;
+	}
+
+
 }
+
 
 @media screen and (max-width: 860px) {
 	.header__logo {
@@ -210,13 +287,20 @@
 	.advantages-item {
 		margin-bottom: 30px;
 	}
-}
 
-@media screen and (max-width: 860px) {
 	.news-slider__item-description {
 		font-size: 14px;
 	}
+
+	.about-sidebar {
+		display: none;
+	}
+
+	.about-content {
+		margin-left: 0;
+	}
 }
+
 
 @media screen and (min-width: 661px) {
 	.header__menu {
@@ -225,6 +309,15 @@
 }
 
 @media screen and (max-width: 660px) {
+
+	.header-wrap {
+		border-bottom: 2px solid #fc0013;
+	}
+
+	.header__phone {
+		margin: 25px 0 10px;
+	}
+
 	.feedback-search {
 		position: static;
 		margin-top: 10px;
@@ -338,6 +431,15 @@
 
 	h2 {
 		font-size: 22px;
+	}
+
+	h1 {
+		font-size: 28px;
+		margin: 0 0 30px;
+	}
+
+	.news-preview__title, .news-item__title {
+		font-size: 19px;
 	}
 
 	.product-tab-item {
@@ -463,6 +565,18 @@
 		margin-bottom: 15px;
 	}
 
+	.news-preview__button {
+		font-weight: 600;
+	}
+
+	.pagination > li > a, .pagination > li > span {
+		font-size: 16px;
+	}
+
+	.pagination__text {
+		padding: 1px 12px !important;
+	}
+
 }
 
 
@@ -473,7 +587,7 @@
 	}
 
 	.header__phone {
-		margin: 18px 0 0;
+		margin: 18px 0 8px;
 	}
 
 	.header__logo-img {
@@ -524,6 +638,27 @@
 		margin-bottom: 385px !important;
 	}
 
+	.news-date {
+		float: none;
+		margin: 0 0 7px;
+	}
+
+	.news-author {
+		float: none;
+	}
+
+	.news-preview__text {
+		margin: 40px 0 0;
+	}
+
+	.news-preview__title, .news-item__title {
+		font-weight: 600;
+		line-height: 1.2;
+	}
+
+	.pagination li:not(.lateral-page) {
+		display: none !important;
+	}
 }
 
 @media screen and (max-width: 385px) {
