@@ -880,8 +880,7 @@ h2.resp-accordion:first-child, h2.resp-accordion {
     border: 1px solid #e9eff1;
 }
 
-
-.sales-leader__item-third{
+.sales-leader__item-third {
     float: right;
 }
 
@@ -973,7 +972,7 @@ h2.resp-accordion:first-child, h2.resp-accordion {
     margin: 20px 0 0;
 }
 
-.sales-leader__second{
+.sales-leader__second {
     margin: 20px auto 0;
 }
 
@@ -1056,4 +1055,258 @@ h2.resp-accordion:first-child, h2.resp-accordion {
 
 .other-news__item-link:hover {
     color: #fc0013;
+}
+
+/* END NEWS PAGE */
+
+/* BEGIN ABOUT PAGE */
+
+.about-page h1{
+    margin: -10px 0 30px;
+}
+
+.about-page__text{
+    font-size: 16px;
+    font-weight: 300;
+    color: #666666;
+    line-height: 1.6;
+}
+
+.about-page__wrap-menu{
+    margin: 40px 18px 100px;
+    border: 1px solid #e5e5e5;
+    border-bottom: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.about-navigation__item{
+    width: 33.33%;
+    float: left;
+    position: relative;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.about-navigation__item-middle{
+    border-right: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+}
+
+.about-navigation__item-third{
+    border-right: 1px solid #e5e5e5;
+}
+
+
+.about-navigation__link{
+    display: block;
+    height: 253px;
+    position: relative;
+    margin: 10px;
+}
+
+.about-navigation__title{
+    position: absolute;
+    bottom: 55px;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 16px;
+    font-weight: 900;
+    white-space: nowrap;
+    color: #333333;
+}
+
+.about-navigation__image{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.about-navigation__image-brand{
+    width: 191px;
+    height: 20px;
+    background: url("../image/icons/logo-2.png") no-repeat;
+}
+
+.about-navigation__image-quality{
+    width: 120px;
+    height: 77px;
+    background: url("../image/icons/quality.png") no-repeat;
+}
+
+.about-navigation__image-technologies{
+    width: 84px;
+    height: 79px;
+    background: url("../image/icons/technologies.png") no-repeat;
+}
+
+.about-navigation__image-guarantee{
+    width: 75px;
+    height: 85px;
+    background: url("../image/icons/guarantee.png") no-repeat;
+}
+
+.about-navigation__image-news{
+    width: 83px;
+    height: 72px;
+    background: url("../image/icons/news-icon.png") no-repeat;
+}
+
+.about-navigation__image-representation{
+    width: 142px;
+    height: 78px;
+    background: url("../image/icons/representation.png") no-repeat;
+}
+
+.about-navigation__image-review{
+    width: 73px;
+    height: 84px;
+    background: url("../image/icons/reviews.png") no-repeat;
+}
+
+.about-navigation__image-conditions{
+    width: 73px;
+    height: 84px;
+    background: url("../image/icons/conditions.png") no-repeat;
+}
+
+
+.delimiter-about{
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 23px;
+    height: 21px;
+    background: url("../image/icons/delimiter-about.png") no-repeat;
+}
+
+.delimiter-about-1{
+    top: -11px;
+    left: -12px;
+}
+
+.delimiter-about-2{
+    top: -11px;
+    right: -12px;
+}
+
+/*.about-navigation__item-third .delimiter-about-2{*/
+    /*right: -13px;*/
+/*}*/
+
+.delimiter-about-3{
+    bottom: -11px;
+    left: -12px;
+}
+
+.delimiter-about-4{
+    bottom: -11px;
+    right: -12px;
+}
+
+/*.about-navigation__item-third .delimiter-about-4{*/
+    /*right: -13px;*/
+/*}*/
+
+.delimiter-about-link{
+    position: absolute;
+    display: none;
+    width: 9px;
+    height: 9px;
+    border-top: 1px solid #f2454a;
+}
+
+.delimiter-about-link-1{
+    right: -10px;
+    top: -4px;
+    -moz-transform:rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.delimiter-about-link-2{
+    left: -10px;
+    top: -4px;
+    -moz-transform:rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.delimiter-about-link-3{
+    left: -10px;
+    bottom: -5px;
+    -moz-transform:rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.delimiter-about-link-4{
+    right: -10px;
+    bottom: -5px;
+    -moz-transform:rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+.about-navigation__link:hover{
+    background: #f2454a;
+}
+
+.about-navigation__link:hover .delimiter-about-link{
+    display: block;
+}
+
+
+.about-navigation__link:hover .about-navigation__title{
+    color: #ffffff;
+}
+
+.about-navigation__link:hover .about-navigation__image-brand{
+    background: url("../image/icons/logo2-hover.png") no-repeat;
+}
+
+.about-navigation__link:hover .about-navigation__image-quality{
+    background: url("../image/icons/quality-hover.png") no-repeat;
+}
+
+.about-navigation__link:hover .about-navigation__image-technologies{
+    background: url("../image/icons/technologies-hover.png") no-repeat;
+}
+
+.about-navigation__link:hover .about-navigation__image-guarantee{
+    background: url("../image/icons/guarantee-hover.png") no-repeat;
+}
+
+.about-navigation__link:hover .about-navigation__image-news{
+    background: url("../image/icons/news-icon-hover.png") no-repeat;
+}
+
+.about-navigation__link:hover .about-navigation__image-representation{
+    background: url("../image/icons/representation-hover.png") no-repeat;
+}
+
+.about-navigation__link:hover .about-navigation__image-review{
+    background: url("../image/icons/reviews-hover.png") no-repeat;
+}
+
+.about-navigation__link:hover .about-navigation__image-conditions{
+    width: 73px;
+    height: 84px;
+    background: url("../image/icons/conditions-hover.png") no-repeat;
 }
