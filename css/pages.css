@@ -1432,3 +1432,189 @@ p.brand-content__main-paragraph {
 }
 
 /* END PARTNERSHIPS PAGE */
+
+/* BEGIN DEALERS PAGE */
+
+.dealers-content__text {
+    font-size: 20px;
+    font-weight: 300;
+    color: #666666;
+}
+
+.caret-arrow {
+    display: inline-block;
+    height: 15px;
+    margin-top: 7px;
+    width: 12px;
+    text-align: right;
+    background: url(../image/icons/select-arrow.png) no-repeat;
+}
+
+.bs-caret:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 35px;
+    height: 38px;
+    width: 1px;
+    background: #bac5cc;
+}
+
+.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus {
+    color: #404041;
+    background-color: #ffffff;
+    border: 1px solid #bac5cc;
+}
+
+.btn-default:hover {
+    color: #404041;
+    background-color: #ffffff;
+    border: 1px solid #bac5cc;
+}
+
+.btn-default {
+    border: 1px solid #bac5cc;
+}
+
+.btn-group.open .dropdown-toggle {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.bootstrap-select .dropdown-toggle:focus {
+    outline: none !important;
+}
+
+.btn:active, .btn.active {
+    box-shadow: none;
+}
+
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    color: #404041;
+    background-color: #ffffff;
+    border: 1px solid #bac5cc;
+}
+
+.btn-default:focus, .btn-default.focus {
+    background: #ffffff;
+    border: 1px solid #bac5cc;
+}
+
+.dropdown-toggle, .dropdown-menu {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-family: "GothamPro", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #434343;
+}
+
+.dropdown-menu > li > a {
+    font-family: "GothamPro", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #434343;
+}
+
+.dropdown-toggle {
+    height: 40px;
+    width: 100%;
+    padding: 10px 30px 10px 20px;
+}
+
+.dropdown-menu {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #bac5cc;
+}
+
+#city-form .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 250px;
+}
+
+#city-form label {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #aeaeae;
+}
+
+#city-form {
+    padding: 30px 0 40px;
+    border-bottom: 1px solid #e9eff1;
+}
+
+.dealers-item {
+    padding: 45px 0;
+    border-bottom: 1px solid #e9eff1;
+    font-size: 16px;
+    font-weight: 300;
+    color: #666666;
+}
+
+.dealers-item__photo {
+    position: relative;
+    float: left;
+    width: 182px;
+    min-height: 90px;
+}
+
+.dealers-item__no-photo {
+    background: #f8fafa;
+}
+
+.dealers-item__photo img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 182px;
+    max-height: 94px;
+}
+
+.dealers-item__info {
+    margin-left: 230px;
+}
+
+.dealers-item__info strong{
+    font-weight: 900;
+    color: #333333;
+}
+
+.dealers-item__url{
+    color: #666666;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.dealers-item__url:hover, .dealers-item__url:focus {
+    color: #666666;
+}
+
+.dealers-item__contacts-name{
+    color: #aeaeae;
+}
+
+.dealers-item__contacts p{
+    margin: 5px 0 0;
+}
+
+.dealers-item__contacts{
+    margin-top: 25px;
+}
+
+.dealers-item__description{
+    margin: 35px 0 0;
+    line-height: 1.6;
+}
+
+/* END DEALERS PAGE */

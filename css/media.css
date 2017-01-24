@@ -700,6 +700,17 @@
 		margin: 0 0 10px;
 	}
 
+	.dealers-content__text {
+		font-size: 18px;
+	}
+
+	.dealers-item__contacts {
+		margin-top: 15px;
+	}
+
+	.dealers-item__info {
+		margin-left: 210px;
+	}
 
 }
 
@@ -747,6 +758,23 @@
 
 	.sales-raiting {
 		font-size: 14px;
+	}
+
+	.dealers-item__photo {
+		float: none;
+		margin: 0 auto 25px;
+	}
+
+	.dealers-item__info {
+		margin-left: 0;
+	}
+
+	.dealers-item__description {
+		margin: 20px 0 0;
+	}
+
+	.dealers-item__no-photo {
+		display: none;
 	}
 }
 
