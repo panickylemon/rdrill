@@ -677,7 +677,7 @@
 		margin: 0 auto 20px;
 	}
 
-	.brand-content p {
+	.brand-content p, .partnership-page p {
 		line-height: 1.5;
 		margin: 0 0 20px;
 	}
@@ -694,6 +694,10 @@
 
 	.three-img__item img {
 		width: 100%;
+	}
+
+	.partnership-page li p:first-child {
+		margin: 0 0 10px;
 	}
 
 
@@ -837,6 +841,18 @@
 
 	.news-preview__additional-info, .news-item__additional-info {
 		height: auto;
+	}
+
+	.partnership-page{
+		margin: 0 0 70px;
+	}
+
+	.partnership-page li:before{
+		left: -61px;
+	}
+
+	.partnership-page ol {
+		padding-left: 60px;
 	}
 }
 
