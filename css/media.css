@@ -244,6 +244,18 @@
 		border-left: none;
 	}
 
+	p.brand-content__main-paragraph {
+		font-size: 18px;
+	}
+
+	.brand-content .image-left {
+		margin-right: 30px;
+	}
+
+	.brand-content .image-right {
+		margin-left: 30px;
+	}
+
 }
 
 
@@ -657,6 +669,33 @@
 	.about-page h1 {
 		margin: -10px 0 20px;
 	}
+
+	.brand-content .image-left, .brand-content .image-right {
+		float: none;
+		display: block;
+		width: 100%;
+		margin: 0 auto 20px;
+	}
+
+	.brand-content p {
+		line-height: 1.5;
+		margin: 0 0 20px;
+	}
+
+	.brand-content__important-info p {
+		margin: 0;
+	}
+
+	.three-img__item {
+		float: none;
+		width: 100%;
+		margin: 0 0 20px;
+	}
+
+	.three-img__item img {
+		width: 100%;
+	}
+
 
 }
 
