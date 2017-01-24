@@ -235,6 +235,15 @@
 		font-size: 20px;
 	}
 
+	.about-navigation__item {
+		width: 50%;
+		border-right: 1px solid #e5e5e5;
+	}
+
+	.about-navigation__item-middle {
+		border-left: none;
+	}
+
 }
 
 
@@ -641,6 +650,14 @@
 		font-size: 19px;
 	}
 
+	.about-navigation__item {
+		width: 100%;
+	}
+
+	.about-page h1 {
+		margin: -10px 0 20px;
+	}
+
 }
 
 
@@ -855,6 +872,15 @@
 		padding: 5px 0;
 	}
 }
+
+@media screen and (max-width: 320px) {
+	.about-navigation__title {
+		white-space: normal;
+		text-align: center;
+		bottom: 45px;
+	}
+}
+
 
 @media screen and (max-width: 300px) {
 	.home-about__text, .offer-item__description {
