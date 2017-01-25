@@ -275,7 +275,7 @@ h2.resp-accordion:first-child, h2.resp-accordion {
     position: relative;
     width: 100%;
     text-align: center;
-    background-size: 100% 100%;
+    background-size: cover !important;
     color: #ffffff;
 }
 
@@ -615,6 +615,15 @@ h2.resp-accordion:first-child, h2.resp-accordion {
     line-height: 1.4;
 }
 
+.news-item ul {
+    padding: 0 0 10px 16px;
+    list-style-image: url("../image/icons/li-point.png");
+}
+
+.news-item ul li {
+    padding-bottom: 3px;
+}
+
 .news-preview__additional-info, .news-item__additional-info {
     height: 24px;
     font-size: 16px;
@@ -648,7 +657,8 @@ h2.resp-accordion:first-child, h2.resp-accordion {
 }
 
 .news-preview__text p {
-    margin: 0 0 20px;
+    margin: 0 0 25px;
+    line-height: 1.6;
 }
 
 .news-preview__wrap-button {
@@ -860,7 +870,8 @@ h2.resp-accordion:first-child, h2.resp-accordion {
 }
 
 .news-item__text p {
-    margin: 0 0 20px;
+    margin: 0 0 25px;
+    line-height: 1.6;
 }
 
 .news-item__sales-leader {
@@ -1586,12 +1597,12 @@ p.brand-content__main-paragraph {
     margin-left: 230px;
 }
 
-.dealers-item__info strong{
+.dealers-item__info strong {
     font-weight: 900;
     color: #333333;
 }
 
-.dealers-item__url{
+.dealers-item__url {
     color: #666666;
     border-bottom: 1px solid #d8d8d8;
 }
@@ -1600,37 +1611,36 @@ p.brand-content__main-paragraph {
     color: #666666;
 }
 
-.dealers-item__contacts-name{
+.dealers-item__contacts-name {
     color: #aeaeae;
 }
 
-.dealers-item__contacts p{
+.dealers-item__contacts p {
     margin: 5px 0 0;
 }
 
-.dealers-item__contacts{
+.dealers-item__contacts {
     margin-top: 25px;
 }
 
-.dealers-item__description{
+.dealers-item__description {
     margin: 35px 0 0;
     line-height: 1.6;
 }
 
 /* END DEALERS PAGE */
 
-
 /* BEGIN DELIVERY PAGE */
 
-.delivery-content{
+.delivery-content {
     margin: 0 0 60px;
 }
 
-.delivery-item{
+.delivery-item {
     margin-bottom: 60px;
 }
 
-.delivery-content__text{
+.delivery-content__text {
     margin: -10px 0 45px;
     font-size: 20px;
     font-weight: 300;
@@ -1638,3 +1648,105 @@ p.brand-content__main-paragraph {
 }
 
 /* END DELIVERY PAGE */
+
+/* BEGIN ARTICLE PAGE */
+
+.article {
+    margin: 0 0 60px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #666666;
+}
+
+.article p {
+    margin: 0 0 25px;
+    line-height: 1.6;
+}
+
+.article h2 {
+    margin: 25px 0 30px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #333333;
+    line-height: 1.4;
+}
+
+.article__img-right {
+    max-width: 100%;
+    float: right;
+    margin: 0 0 20px 60px;
+}
+
+.article ul {
+    padding: 0 0 10px 16px;
+    list-style-image: url("../image/icons/li-point.png");
+}
+
+.article ul li {
+    padding-bottom: 3px;
+}
+
+.accordion-wrap {
+    margin: 0 0 40px;
+}
+
+.accordion-item {
+    margin: 0 0 10px;
+    font-size: 14px;
+    border: 1px solid #e9eff1;
+    color: #666666;
+}
+
+.accordion-item__number {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #f84630;
+}
+
+.accordion-item__top {
+    position: relative;
+    min-height: 60px;
+
+}
+
+.accordion-item__name {
+    margin: 0 60px 0 0;
+    padding: 18px 15px 18px 20px;
+    line-height: 1.5;
+    border-right: 1px solid #e9eff1;
+}
+
+.accordion-item__top strong {
+    font-weight: 900;
+}
+
+.accordion-item__content-wrap {
+    border-top: 1px solid #e9eff1;
+}
+
+.accordion-item__content {
+    margin: 20px !important;
+}
+
+.accordion-item__button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+    height: 100%;
+    margin: 0;
+    cursor: pointer;
+}
+
+
+.accordion-item__button{
+    background: url("../image/icons/minus.png") no-repeat center;
+}
+
+
+.accordion-item__button.collapsed{
+    background: url("../image/icons/plus.png") no-repeat center;
+}
+
+/* END ARTICLE PAGE */

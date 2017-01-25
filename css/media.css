@@ -227,7 +227,7 @@
 		margin-right: 5px;
 	}
 
-	.news-preview__text p, .news-item__text p {
+	.news-preview__text p, .news-item__text p, .article p {
 		margin: 0 0 15px;
 	}
 
@@ -254,6 +254,12 @@
 
 	.brand-content .image-right {
 		margin-left: 30px;
+	}
+
+	.article__img-right {
+		float: none;
+		display: block;
+		margin: 0 auto 30px;
 	}
 
 }
