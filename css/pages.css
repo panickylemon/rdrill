@@ -1751,8 +1751,7 @@ p.brand-content__main-paragraph {
 
 /* BEGIN CONTACTS PAGE */
 
-
-.contacts-wrap{
+.contacts-wrap {
     font-size: 16px;
     font-weight: 300;
     color: #666666;
@@ -1766,23 +1765,23 @@ p.brand-content__main-paragraph {
 .map-wrap {
     float: left;
     width: 50%;
-    height: 585px;
+    height: 590px;
 }
 
 .contacts-content__item {
     margin: 0 0 25px;
 }
 
-.contacts-content__item p{
+.contacts-content__item p {
     margin: 0 0 6px;
 }
 
-.contacts-content__item strong{
+.contacts-wrap strong {
     font-weight: 900;
     color: #333333;
 }
 
-.map-link a{
+.map-link a {
     display: block;
     margin: 0 0 6px;
     font-size: 16px;
@@ -1790,6 +1789,81 @@ p.brand-content__main-paragraph {
     color: #666666;
 }
 
-.map-link a span{
+.map-link a span {
     border-bottom: 1px solid #d8d8d8;
+}
+
+.contacts-wrap h2 {
+    margin: 20px 0 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.contacts-staff {
+    margin: 40px 0 80px;
+}
+
+.contacts-staff__item {
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.contacts-staff__photo{
+    width: 91px;
+    height: 138px;
+    margin: 30px auto 35px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.olkhovik{
+    background: url("../image/base/olkhovik.png") no-repeat;
+}
+
+.dudkin{
+    background: url("../image/base/dudkin.png") no-repeat;
+}
+
+.pogonec{
+    background: url("../image/base/pogonec.png") no-repeat;
+}
+
+.contacts-staff__position{
+    margin: -5px 0 25px;
+    font-size: 14px;
+}
+
+.contacts-staff__icon{
+    margin: 0 0 6px;
+}
+
+.contacts-staff__icon:before{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.contacts-staff__skype:before{
+    background: url("../image/icons/contact-icon.png") no-repeat;
+}
+
+.contacts-staff__email:before{
+    background: url("../image/icons/contact-icon.png") no-repeat 0 35%;
+}
+
+.contacts-staff__phone:before{
+    background: url("../image/icons/contact-icon.png") no-repeat 0 69%;
+}
+
+.contacts-staff__phone-2:before{
+    background: url("../image/icons/contact-icon.png") no-repeat 0 103%;
 }
