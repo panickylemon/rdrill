@@ -1812,7 +1812,7 @@ p.brand-content__main-paragraph {
     text-align: center;
 }
 
-.contacts-staff__photo{
+.contacts-staff__photo {
     width: 91px;
     height: 138px;
     margin: 30px auto 35px;
@@ -1821,28 +1821,28 @@ p.brand-content__main-paragraph {
     border-radius: 8px;
 }
 
-.olkhovik{
+.olkhovik {
     background: url("../image/base/olkhovik.png") no-repeat;
 }
 
-.dudkin{
+.dudkin {
     background: url("../image/base/dudkin.png") no-repeat;
 }
 
-.pogonec{
+.pogonec {
     background: url("../image/base/pogonec.png") no-repeat;
 }
 
-.contacts-staff__position{
+.contacts-staff__position {
     margin: -5px 0 25px;
     font-size: 14px;
 }
 
-.contacts-staff__icon{
+.contacts-staff__icon {
     margin: 0 0 6px;
 }
 
-.contacts-staff__icon:before{
+.contacts-staff__icon:before {
     content: '';
     display: inline-block;
     width: 16px;
@@ -1852,18 +1852,20 @@ p.brand-content__main-paragraph {
     text-align: right;
 }
 
-.contacts-staff__skype:before{
+.contacts-staff__skype:before {
     background: url("../image/icons/contact-icon.png") no-repeat;
 }
 
-.contacts-staff__email:before{
+.contacts-staff__email:before {
     background: url("../image/icons/contact-icon.png") no-repeat 0 35%;
 }
 
-.contacts-staff__phone:before{
+.contacts-staff__phone:before {
     background: url("../image/icons/contact-icon.png") no-repeat 0 69%;
 }
 
-.contacts-staff__phone-2:before{
+.contacts-staff__phone-2:before {
     background: url("../image/icons/contact-icon.png") no-repeat 0 103%;
 }
+
+/* END CONTACTS PAGE */
