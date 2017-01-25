@@ -1869,3 +1869,20 @@ p.brand-content__main-paragraph {
 }
 
 /* END CONTACTS PAGE */
+
+/* BEGIN SALE PAGE */
+
+.banner-sale {
+    width: 100%;
+    margin: 25px 0 0;
+}
+
+.sale-page {
+    margin: 0 0 100px;
+}
+
+.sale-page p {
+    line-height: 1.6;
+}
+
+/* END SALE PAGE */
