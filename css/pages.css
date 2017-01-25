@@ -1514,7 +1514,7 @@ p.brand-content__main-paragraph {
     border: 1px solid #bac5cc;
 }
 
-.dropdown-toggle, .dropdown-menu {
+#city-form .dropdown-toggle, .dropdown-menu {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
@@ -1524,7 +1524,7 @@ p.brand-content__main-paragraph {
     color: #434343;
 }
 
-.dropdown-menu > li > a {
+#city-form .dropdown-menu > li > a {
     font-family: "GothamPro", sans-serif;
     font-weight: 300;
     font-size: 14px;
@@ -1537,7 +1537,7 @@ p.brand-content__main-paragraph {
     padding: 10px 30px 10px 20px;
 }
 
-.dropdown-menu {
+#city-form .dropdown-menu {
     -webkit-box-shadow: none;
     box-shadow: none;
     border: 1px solid #bac5cc;
@@ -1739,14 +1739,57 @@ p.brand-content__main-paragraph {
     cursor: pointer;
 }
 
-
-.accordion-item__button{
+.accordion-item__button {
     background: url("../image/icons/minus.png") no-repeat center;
 }
 
-
-.accordion-item__button.collapsed{
+.accordion-item__button.collapsed {
     background: url("../image/icons/plus.png") no-repeat center;
 }
 
 /* END ARTICLE PAGE */
+
+/* BEGIN CONTACTS PAGE */
+
+
+.contacts-wrap{
+    font-size: 16px;
+    font-weight: 300;
+    color: #666666;
+}
+
+.contacts-content {
+    float: left;
+    width: 50%;
+}
+
+.map-wrap {
+    float: left;
+    width: 50%;
+    height: 585px;
+}
+
+.contacts-content__item {
+    margin: 0 0 25px;
+}
+
+.contacts-content__item p{
+    margin: 0 0 6px;
+}
+
+.contacts-content__item strong{
+    font-weight: 900;
+    color: #333333;
+}
+
+.map-link a{
+    display: block;
+    margin: 0 0 6px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #666666;
+}
+
+.map-link a span{
+    border-bottom: 1px solid #d8d8d8;
+}
