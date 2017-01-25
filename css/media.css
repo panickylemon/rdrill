@@ -320,7 +320,7 @@
 		padding: 60px 0 20px;
 	}
 
-	.advantages-item {
+	.advantages-item, .delivery-item {
 		margin-bottom: 30px;
 	}
 
@@ -700,7 +700,7 @@
 		margin: 0 0 10px;
 	}
 
-	.dealers-content__text {
+	.dealers-content__text, .delivery-content__text {
 		font-size: 18px;
 	}
 
@@ -710,6 +710,10 @@
 
 	.dealers-item__info {
 		margin-left: 210px;
+	}
+
+	.delivery-content {
+		margin: 0 0 30px;
 	}
 
 }
