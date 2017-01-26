@@ -83,6 +83,7 @@ input:disabled + label:hover {
     margin: 0 0 45px;
 }
 
+
 .sorting-table {
     width: 100%;
 }
@@ -109,8 +110,13 @@ input:disabled + label:hover {
     border-top: 1px solid #e9eff1;
 }
 
+.sorting-table td:first-child{
+    min-width: 310px;
+}
+
 .options-sorting{
     height: 140px;
+    background: #ffffff;
     font-size: 13px;
     color: #666666;
 }
@@ -468,4 +474,8 @@ tr.sorting-model__item{
 
 .catalog{
     margin: 0 0 60px;
+}
+
+.model-active {
+    background: #fbfdfd;
 }

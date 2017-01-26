@@ -207,8 +207,8 @@
         margin-bottom: 640px !important;
     }
 
-    .footer-menu-list__item {
-        margin-bottom: 15px;
+    .footer-submenu-list{
+        margin-top: 15px;
     }
 
     .footer-contact__title {
