@@ -87,6 +87,13 @@ strong{
 	background: #89a1a9;
 }
 
+.text--red {
+	color: #fc0013;
+}
+
+.text--grey {
+	color: #aeaeae;
+}
 
 .breadcrumb {
 	padding: 8px 0;

@@ -88,54 +88,49 @@ $(document).ready(function () {
     $(".page-away-0.active").nextAll('li').addClass('next-li');
 
 
-    $('#feeadback-form').submit( function() {
-        var error = false;
-        if (!$('#name').val()) {
-            $('.error-modal__name').show();
-            error = true;
-        } else {
-            $('.error-modal__name').hide();
-        }
-        if (!$('#phone').val()) {
-            $('.error-modal__phone').show();
-            error = true;
-        } else {
-            $('.error-modal__phone').hide();
-        }
-        if (!$('#email').val()) {
-            $('.error-modal__email').show();
-            error = true;
-        } else {
-            $('.error-modal__email').hide();
-        }
-        if (error) {
-            return false
-        }
+    $('.selectpicker').selectpicker();
+    $('.selectpicker').parent().children().removeAttr('title');
+    $('.selectpicker').on('hidden.bs.select', function (e) {
+        $(this).parent().children().removeAttr('title');
     });
 
-    //$('#questions-form').submit( function() {
-    //    var error = false;
-    //    if (!$('#name-questions').val()) {
-    //        $('.error-modal__name').show();
-    //        error = true;
-    //    } else {
-    //        $('.error-modal__name').hide();
-    //    }
-    //    if (!$('#phone-questions').val()) {
-    //        $('.error-modal__phone').show();
-    //        error = true;
-    //    } else {
-    //        $('.error-modal__phone').hide();
-    //    }
-    //    if (!$('#email-questions').val()) {
-    //        $('.error-modal__email').show();
-    //        error = true;
-    //    } else {
-    //        $('.error-modal__email').hide();
-    //    }
-    //    if (error) {
-    //        return false
-    //    }
-    //});
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+        $('.selectpicker').selectpicker('mobile');
+    }
+
+
+    $('#sorting-table').fixedHeaderTable('show');
+
+    // $(function(){
+    //     if($('.options-item').has('.active')){
+    //         $('.options-item').addClass("options-active");
+    //     } else {
+    //         $('.options-item').removeClass("options-active");
+    //     }
+    // });
+
+
+
+    $(function () {
+        $('#feeadback').parsley().on('field:validated', function() {
+            var ok = $('.parsley-error').length === 0;
+            $('.bs-callout-info').toggleClass('hidden', !ok);
+            $('.bs-callout-warning').toggleClass('hidden', ok);
+        })
+            .on('form:submit', function() {
+                return false; // Don't submit form for this demo
+            });
+    });
+
+    $(function () {
+        $('#questions').parsley().on('field:validated', function() {
+            var ok = $('.parsley-error').length === 0;
+            $('.bs-callout-info').toggleClass('hidden', !ok);
+            $('.bs-callout-warning').toggleClass('hidden', ok);
+        })
+            .on('form:submit', function() {
+                return false; // Don't submit form for this demo
+            });
+    });
 
 });
