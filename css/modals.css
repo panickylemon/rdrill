@@ -142,10 +142,15 @@ input, textarea {
 }
 
 
-.error-modal{
-	display: none;
+.parsley-errors-list{
 	margin: 0;
+	padding: 0;
 	color: #ff0000;
 	font-style: italic;
-	font-size: 14px;
+	font-size: 13px;
+	list-style: none;
+}
+
+.parsley-errors-list .parsley-required{
+	margin: -22px 0 4px;
 }

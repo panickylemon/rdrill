@@ -1540,6 +1540,9 @@ p.brand-content__main-paragraph {
 #city-form .dropdown-menu {
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+#city-form .dropdown-menu.open {
     border: 1px solid #bac5cc;
 }
 

@@ -30,6 +30,8 @@
 	<script src="plugins/js/jquery.textareaAutoResize.js"></script>
 	<script src="plugins/js/responsive-paginate.js"></script>
 	<script src="plugins/js/bootstrap-select.min.js"></script>
+	<script src="plugins/js/parsley.js"></script>
+	<script src="plugins/js/ru.js"></script>
 	<script src="js/main.js"></script>
 </head>
 <body>
@@ -928,21 +930,51 @@
 <div class="l-modal modal fade" id="feeadback-form" tabindex="-1" role="dialog">
 	<div class="b-modal modal-dialog" role="document">
 		<a href="#" class="modal-close" data-dismiss="modal"></a>
-		<form class="modal-form">
+
+		<form class="modal-form" id="feeadback" data-parsley-validate="">
 			<p class="modal-form__title">
 				Обратная связь
 			</p>
-			<p class="error-modal error-modal__name">Обязательное поле!</p>
+
 			<label for="name">ФИО</label>
-			<input placeholder="ФИО*" type="text" name="name" id="name">
-			<p class="error-modal error-modal__phone">Обязательное поле!</p>
+			<input placeholder="ФИО*" type="text" name="name" id="name" required="">
+
 			<label for="phone">Телефон для связи</label>
-			<input placeholder="Телефон для связи*" type="text" name="phone" id="phone">
-			<p class="error-modal error-modal__email">Обязательное поле!</p>
+			<input placeholder="Телефон для связи*" type="text" name="phone" id="phone" required="">
+
 			<label for="email">Email</label>
 			<input placeholder="Email" type="email" name="email" id="email">
 			<label for="comment">Комментарий</label>
 			<textarea placeholder="Дополнительный комментарий" name="comment" id="comment"></textarea>
+
+			<div class="wrap-button">
+				<button class="base-button base-button--red button-submit">Отправить</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="l-modal modal fade" id="questions-form" tabindex="-1" role="dialog">
+	<div class="b-modal modal-dialog" role="document">
+		<a href="#" class="modal-close" data-dismiss="modal"></a>
+
+		<form class="modal-form" id="questions" data-parsley-validate="">
+			<p class="modal-form__title">
+				Задать вопрос
+			</p>
+
+			<label for="name">ФИО</label>
+			<input placeholder="ФИО*" type="text" name="name" id="name-questions" required="">
+
+			<label for="phone">Телефон для связи</label>
+			<input placeholder="Телефон для связи*" type="text" name="phone" id="phone-questions" required="">
+
+			<label for="email">Email</label>
+			<input placeholder="Email" type="email" name="email" id="email-questions">
+			<label for="comment">Комментарий</label>
+			<textarea placeholder="Ваш вопрос" name="comment" id="comment-questions"></textarea>
+
+
 			<div class="wrap-button">
 				<button class="base-button base-button--red button-submit">Отправить</button>
 			</div>

@@ -30,6 +30,8 @@
     <script src="plugins/js/jquery.textareaAutoResize.js"></script>
     <script src="plugins/js/responsive-paginate.js"></script>
     <script src="plugins/js/bootstrap-select.min.js"></script>
+    <script src="plugins/js/parsley.js"></script>
+    <script src="plugins/js/ru.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body>
@@ -509,20 +511,17 @@
     <div class="b-modal modal-dialog" role="document">
         <a href="#" class="modal-close" data-dismiss="modal"></a>
 
-        <form class="modal-form">
+        <form class="modal-form" id="feeadback" data-parsley-validate="">
             <p class="modal-form__title">
                 Обратная связь
             </p>
 
-            <p class="error-modal error-modal__name">Обязательное поле!</p>
             <label for="name">ФИО</label>
-            <input placeholder="ФИО*" type="text" name="name" id="name">
+            <input placeholder="ФИО*" type="text" name="name" id="name" required="">
 
-            <p class="error-modal error-modal__phone">Обязательное поле!</p>
             <label for="phone">Телефон для связи</label>
-            <input placeholder="Телефон для связи*" type="text" name="phone" id="phone">
+            <input placeholder="Телефон для связи*" type="text" name="phone" id="phone" required="">
 
-            <p class="error-modal error-modal__email">Обязательное поле!</p>
             <label for="email">Email</label>
             <input placeholder="Email" type="email" name="email" id="email">
             <label for="comment">Комментарий</label>
@@ -539,20 +538,17 @@
     <div class="b-modal modal-dialog" role="document">
         <a href="#" class="modal-close" data-dismiss="modal"></a>
 
-        <form class="modal-form">
+        <form class="modal-form" id="questions" data-parsley-validate="">
             <p class="modal-form__title">
                 Задать вопрос
             </p>
 
-            <p class="error-modal error-modal__name">Обязательное поле!</p>
             <label for="name">ФИО</label>
-            <input placeholder="ФИО*" type="text" name="name" id="name-questions">
+            <input placeholder="ФИО*" type="text" name="name" id="name-questions" required="">
 
-            <p class="error-modal error-modal__phone">Обязательное поле!</p>
             <label for="phone">Телефон для связи</label>
-            <input placeholder="Телефон для связи*" type="text" name="phone" id="phone-questions">
+            <input placeholder="Телефон для связи*" type="text" name="phone" id="phone-questions" required="">
 
-            <p class="error-modal error-modal__email">Обязательное поле!</p>
             <label for="email">Email</label>
             <input placeholder="Email" type="email" name="email" id="email-questions">
             <label for="comment">Комментарий</label>
