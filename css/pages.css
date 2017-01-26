@@ -1418,7 +1418,7 @@ p.brand-content__main-paragraph {
     margin-bottom: 25px;
 }
 
-.partnership-page li:before {
+.partnership-page ol li:before {
     content: counter(li);
     counter-increment: li;
     position: absolute;
@@ -1680,12 +1680,12 @@ p.brand-content__main-paragraph {
     margin: 0 0 20px 60px;
 }
 
-.article ul {
+.article ul, .catalog ul {
     padding: 0 0 10px 16px;
     list-style-image: url("../image/icons/li-point.png");
 }
 
-.article ul li {
+.article ul li, .catalog ul li {
     padding-bottom: 3px;
 }
 

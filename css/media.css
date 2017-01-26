@@ -925,7 +925,7 @@
         left: -61px;
     }
 
-    .partnership-page ol {
+    .partnership-page ol, .catalog ol {
         padding-left: 60px;
     }
 }
