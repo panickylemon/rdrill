@@ -1,0 +1,39 @@
+/* BEGIN CATALOG PAGES */
+
+.banner-catalog {
+    width: 100%;
+    height: 272px;
+    padding: 35px 50px;
+    border: 1px solid #eaeeef;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.catalog-machine__banner {
+    background: url("../image/base/banner-machine.png") no-repeat 100% 0;
+}
+
+.catalog-drill__banner{
+    background: url("../image/base/banner-drill.png") no-repeat 100% 0;
+}
+
+.banner-catalog__title {
+    max-width: 470px;
+    margin: 0;
+    padding: 0 15px;
+    line-height: 1.5;
+    font-size: 30px;
+    font-weight: 900;
+    color: #252525;
+    border-left: 3px solid #fc0013;
+}
+
+
+.banner-catalog__description{
+    max-width: 470px;
+    margin: 15px 0 0;
+    font-size: 16px;
+    font-weight: 300;
+    color: #252525;
+}
