@@ -35,6 +35,7 @@
     <script src="plugins/js/bootstrap-select.min.js"></script>
     <script src="plugins/js/parsley.js"></script>
     <script src="plugins/js/ru.js"></script>
+    <script src="plugins/js/jquery.fixedheadertable.min.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body>
@@ -381,8 +382,9 @@
                 <div class="sorting-wrap">
                     <form id="sorting-form" action="">
 
-                        <div class="table-responsive">
-                            <table class="table sorting-table">
+                        <!--<div class="table-responsive">-->
+                        <div class="">
+                            <table class="table sorting-table" id="sorting-table">
                                 <thead>
                                 <tr class="options-sorting">
                                     <td class="sorting-table__model">Модель</td>

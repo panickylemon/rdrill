@@ -98,6 +98,9 @@ $(document).ready(function () {
         $('.selectpicker').selectpicker('mobile');
     }
 
+
+    $('#sorting-table').fixedHeaderTable('show');
+
     // $(function(){
     //     if($('.options-item').has('.active')){
     //         $('.options-item').addClass("options-active");
