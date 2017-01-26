@@ -111,7 +111,9 @@ input:disabled + label:hover {
     vertical-align: middle;
 }
 
-.sorting-table thead {
+
+.options-sorting{
+    height: 140px;
     font-size: 13px;
     color: #666666;
 }
@@ -120,9 +122,21 @@ input:disabled + label:hover {
     text-align: left !important;
 }
 
+.options-item{
+    position: relative;
+}
+
 .buttons-sorting {
     width: 45px;
     margin: auto;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .buttons-sorting__item {
@@ -141,7 +155,7 @@ input:disabled + label:hover {
 
 .options-sorting__icon {
     height: 25px;
-    margin: 0 auto 15px;
+    margin: -20px auto 10px;
 }
 
 .buttons-sorting__top {
@@ -169,15 +183,40 @@ input:disabled + label:hover {
 
 .drilling-depth .options-sorting__icon{
     width: 22px;
-    background: url("../image/icons/sorting-icon.png") no-repeat 13% 0;
+    background: url("../image/icons/sorting-icon.png") no-repeat 13% center;
 }
 
 .diameter-twist-drills .options-sorting__icon{
     width: 20px;
-    background: url("../image/icons/sorting-icon.png") no-repeat 25% 0;
+    background: url("../image/icons/sorting-icon.png") no-repeat 25% center;
 }
 
 .power .options-sorting__icon{
     width: 18px;
-    background: url("../image/icons/sorting-icon.png") no-repeat 37% 0;
+    background: url("../image/icons/sorting-icon.png") no-repeat 37% center;
+}
+
+.weight .options-sorting__icon{
+    width: 26px;
+    background: url("../image/icons/sorting-icon.png") no-repeat 48% center;
+}
+
+.height .options-sorting__icon{
+    width: 25px;
+    background: url("../image/icons/sorting-icon.png") no-repeat 62% center;
+}
+
+.working-body .options-sorting__icon{
+    width: 25px;
+    background: url("../image/icons/sorting-icon.png") no-repeat 75% center;
+}
+
+.spindle .options-sorting__icon{
+    width: 25px;
+    background: url("../image/icons/sorting-icon.png") no-repeat 89% center;
+}
+
+.tapping .options-sorting__icon{
+    width: 18px;
+    background: url("../image/icons/sorting-icon.png") no-repeat 100% center;
 }
