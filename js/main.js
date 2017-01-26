@@ -98,6 +98,15 @@ $(document).ready(function () {
         $('.selectpicker').selectpicker('mobile');
     }
 
+    // $(function(){
+    //     if($('.options-item').has('.active')){
+    //         $('.options-item').addClass("options-active");
+    //     } else {
+    //         $('.options-item').removeClass("options-active");
+    //     }
+    // });
+
+
 
     $(function () {
         $('#feeadback').parsley().on('field:validated', function() {
