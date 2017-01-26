@@ -126,4 +126,12 @@ $(document).ready(function () {
         }
     });
 
+    function initSticky() {
+        $('#sorting-table').stickyTableHeaders({container: $(".table-responsive")});
+    }
+    $('.table-responsive').scroll( function() {
+        initSticky()
+    });
+    initSticky()
+
 });
