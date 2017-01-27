@@ -654,3 +654,16 @@ tr.sorting-model__item {
 .catalog-text__right .catalog__important-info {
     margin: 0;
 }
+
+.button-show-filter{
+    display: none;
+    margin: 0 0 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.button-show-filter span{
+    border-bottom: 1px dashed red;
+    cursor: pointer;
+}
