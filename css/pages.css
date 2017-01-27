@@ -1743,6 +1743,8 @@ p.brand-content__main-paragraph {
 }
 
 .accordion-item__button {
+    display: block;
+    border: none !important;
     background: url("../image/icons/minus.png") no-repeat center;
 }
 

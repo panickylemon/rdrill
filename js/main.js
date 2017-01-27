@@ -94,43 +94,44 @@ $(document).ready(function () {
         $(this).parent().children().removeAttr('title');
     });
 
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
         $('.selectpicker').selectpicker('mobile');
     }
 
 
-    $('#sorting-table').fixedHeaderTable('show');
-
-    // $(function(){
-    //     if($('.options-item').has('.active')){
-    //         $('.options-item').addClass("options-active");
-    //     } else {
-    //         $('.options-item').removeClass("options-active");
-    //     }
-    // });
-
-
-
-    $(function () {
-        $('#feeadback').parsley().on('field:validated', function() {
+    $('#feeadback').parsley().on('field:validated', function () {
             var ok = $('.parsley-error').length === 0;
             $('.bs-callout-info').toggleClass('hidden', !ok);
             $('.bs-callout-warning').toggleClass('hidden', ok);
         })
-            .on('form:submit', function() {
-                return false; // Don't submit form for this demo
-            });
-    });
+        .on('form:submit', function () {
+            return false; // Don't submit form for this demo
+        });
 
-    $(function () {
-        $('#questions').parsley().on('field:validated', function() {
+    $('#questions').parsley().on('field:validated', function () {
             var ok = $('.parsley-error').length === 0;
             $('.bs-callout-info').toggleClass('hidden', !ok);
             $('.bs-callout-warning').toggleClass('hidden', ok);
         })
-            .on('form:submit', function() {
-                return false; // Don't submit form for this demo
-            });
+        .on('form:submit', function () {
+            return false; // Don't submit form for this demo
+        });
+
+
+    $(":checkbox.sorting-checkbox-input").change(function () {
+        if (this.checked) {
+            $(this).closest("tr").addClass("model-active");
+        } else {
+            $(this).closest("tr").removeClass("model-active");
+        }
     });
+
+    function initSticky() {
+        $('#sorting-table').stickyTableHeaders({container: $(".table-responsive")});
+    }
+    $('.table-responsive').scroll( function() {
+        initSticky()
+    });
+    initSticky()
 
 });
