@@ -1531,7 +1531,7 @@ p.brand-content__main-paragraph {
     color: #434343;
 }
 
-.dropdown-toggle {
+#city-form .dropdown-toggle {
     height: 40px;
     width: 100%;
     padding: 10px 30px 10px 20px;
