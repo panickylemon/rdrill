@@ -33,6 +33,11 @@ $(document).ready(function () {
     });
 
 
+    $(".button-show-filter").click(function () {
+        $(".filter-sidebar").slideToggle("slow");
+    });
+
+
     $('#main-slider').owlCarousel({
         items: 1,
         loop: true, //Зацикливаем слайдер

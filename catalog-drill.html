@@ -15,6 +15,7 @@
     <link rel='stylesheet' href='plugins/css/owl.theme.default.min.css'>
     <link rel='stylesheet' href='plugins/css/easy-responsive-tabs.css'>
     <link rel='stylesheet' href='plugins/css/bootstrap-select.min.css'>
+    <link rel='stylesheet' href='plugins/css/build.css'>
     <link rel='stylesheet' href='css/typography.css'>
     <link rel='stylesheet' href='css/base.css'>
     <link rel='stylesheet' href='css/header.css'>
@@ -33,6 +34,7 @@
     <script src="plugins/js/responsive-paginate.js"></script>
     <script src="plugins/js/bootstrap-select.min.js"></script>
     <script src="plugins/js/parsley.js"></script>
+    <script src="plugins/js/jquery.stickytableheaders.min.js"></script>
     <script src="plugins/js/ru.js"></script>
     <script src="js/main.js"></script>
 </head>
@@ -365,7 +367,7 @@
             </ul>
         </div>
 
-        <div class="catalog-drill">
+        <div class="catalog catalog-drill">
             <div class="l-container">
                 <div class="banner-catalog catalog-drill__banner">
                     <p class="banner-catalog__title">
@@ -376,6 +378,288 @@
                         основании, Rotabroach предлагает широкий ассортимент вспомогательных аксессуаров.
                     </p>
                 </div>
+            </div>
+
+            <div class="l-container">
+                <div class="button-show-filter"><span>Показать фильтр</span></div>
+                <div class="filter-sidebar">
+                    <form class="filter-catalog" id="filter-form">
+                        <div class="filter-item">
+                            <p class="filter-item__title">Выбирайте нужное</p>
+                            <div class="filter-item__content">
+                                <div class="checkbox">
+                                    <input type="checkbox" id="hss-drills">
+                                    <label for="hss-drills">Сверла из быстрорежущей стали
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="drills-soldered-plates">
+                                    <label for="drills-soldered-plates">Сверла с напаянными пластинами
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="carbide-bits">
+                                    <label for="carbide-bits">Твердосплавные коронки
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="twist-drill">
+                                    <label for="twist-drill">Спиральные сверла (Weldon 19,05)
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="mini-drill">
+                                    <label for="mini-drill">Мини-сверла
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="rail-drills-hss">
+                                    <label for="rail-drills-hss">Железнодорожные сверла HSS (SRCV)
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="rail-drills-tct">
+                                    <label for="rail-drills-tct">Железнодорожные сверла ТСТ (SCRWC)
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="rail-twist-drills">
+                                    <label for="rail-twist-drills">Железнодорожные спиральные сверла
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="filter-item">
+                            <p class="filter-item__title">Глубина сверления</p>
+                            <div class="filter-item__content">
+                                <div class="checkbox">
+                                    <input type="checkbox" id="30-mm">
+                                    <label for="30-mm">30 mm
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="55-mm">
+                                    <label for="55-mm">55 mm
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="80-mm">
+                                    <label for="80-mm">80 mm
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="110-mm">
+                                    <label for="110-mm">110 mm
+                                    </label>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="filter-item">
+                            <p class="filter-item__title">Диаметр сверла</p>
+                            <div class="filter-item__content filter-select-wrap">
+                                <label for="diameter">Выбрать диаметр:</label>
+                                <select name="diameter" class="selectpicker diameter-select" id="diameter">
+                                    <option>12х50 мм</option>
+                                    <option>12х50 мм</option>
+                                    <option>12х150 мм</option>
+                                    <option>12х150 мм</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="folter-buttons clearfix">
+                            <button class="base-button base-button--red button-filter">Показать
+                            </button>
+
+                            <button class="base-button base-button--grey button-filter button-filter-reset">Сбросить
+                            </button>
+                        </div>
+                    </form>
+
+                    <div class="contact-manager">
+                        <p class="sidebar__subtitle">
+                            Есть <strong>вопросы?</strong>
+                        </p>
+                        <img class="contact-manager__image" src="image/base/muzhik.png" alt="менеджер">
+                        <p class="contact-manager__text">
+                            Свяжитесь с нашим менеджером по продажам
+                        </p>
+                        <a class="base-button base-button--red contact-manager__button" href="#questions-form"
+                           data-toggle="modal">Задать вопрос</a>
+                    </div>
+                </div>
+
+                <div class="filter-content">
+                    <div class="catalog-products-wrap clearfix">
+                        <div class="catalog-product">
+                            <a href="#" class="catalog-product__content">
+                                <div class="catalog-product__img">
+                                    <img src="image/products/drill-examle-1.png" alt="сверло">
+                                </div>
+                                <p class="catalog-product__title"><span>Название продукта</span></p>
+                                <p class="catalog-product__description">
+                                    Мини-сверла Rotabroach применяются для сверления материалов толщиной
+                                </p>
+                            </a>
+                        </div>
+                        <div class="catalog-product">
+                            <a href="#" class="catalog-product__content">
+                                <div class="catalog-product__img">
+                                    <img src="image/products/drill-examle-2.png" alt="сверло">
+                                </div>
+                                <p class="catalog-product__title"><span>Название продукта</span></p>
+                                <p class="catalog-product__description">
+                                    Мини-сверла Rotabroach применяются для сверления материалов толщиной
+                                </p>
+                            </a>
+                        </div>
+                        <div class="catalog-product">
+                            <a href="#" class="catalog-product__content">
+                                <div class="catalog-product__img">
+                                    <img src="image/products/drill-examle-3.png" alt="сверло">
+                                </div>
+                                <p class="catalog-product__title"><span>Название продукта</span></p>
+                                <p class="catalog-product__description">
+                                    Мини-сверла Rotabroach применяются для сверления материалов толщиной
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="catalog-product">
+                            <a href="#" class="catalog-product__content">
+                                <div class="catalog-product__img">
+                                    <img src="image/products/drill-examle-1.png" alt="сверло">
+                                </div>
+                                <p class="catalog-product__title"><span>Название продукта</span></p>
+                                <p class="catalog-product__description">
+                                    Мини-сверла Rotabroach применяются для сверления материалов толщиной
+                                </p>
+                            </a>
+                        </div>
+                        <div class="catalog-product">
+                            <a href="#" class="catalog-product__content">
+                                <div class="catalog-product__img">
+                                    <img src="image/products/drill-examle-2.png" alt="сверло">
+                                </div>
+                                <p class="catalog-product__title"><span>Название продукта</span></p>
+                                <p class="catalog-product__description">
+                                    Мини-сверла Rotabroach применяются для сверления материалов толщиной
+                                </p>
+                            </a>
+                        </div>
+                        <div class="catalog-product">
+                            <a href="#" class="catalog-product__content">
+                                <div class="catalog-product__img">
+                                    <img src="image/products/drill-examle-3.png" alt="сверло">
+                                </div>
+                                <p class="catalog-product__title"><span>Название продукта</span></p>
+                                <p class="catalog-product__description">
+                                    Мини-сверла Rotabroach применяются для сверления материалов толщиной
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="catalog-product">
+                            <a href="#" class="catalog-product__content">
+                                <div class="catalog-product__img">
+                                    <img src="image/products/drill-examle-1.png" alt="сверло">
+                                </div>
+                                <p class="catalog-product__title"><span>Название продукта</span></p>
+                                <p class="catalog-product__description">
+                                    Мини-сверла Rotabroach применяются для сверления материалов толщиной
+                                </p>
+                            </a>
+                        </div>
+                        <div class="catalog-product">
+                            <a href="#" class="catalog-product__content">
+                                <div class="catalog-product__img">
+                                    <img src="image/products/drill-examle-2.png" alt="сверло">
+                                </div>
+                                <p class="catalog-product__title"><span>Название продукта</span></p>
+                                <p class="catalog-product__description">
+                                    Мини-сверла Rotabroach применяются для сверления материалов толщиной
+                                </p>
+                            </a>
+                        </div>
+                        <div class="catalog-product">
+                            <a href="#" class="catalog-product__content">
+                                <div class="catalog-product__img">
+                                    <img src="image/products/drill-examle-3.png" alt="сверло">
+                                </div>
+                                <p class="catalog-product__title"><span>Название продукта</span></p>
+                                <p class="catalog-product__description">
+                                    Мини-сверла Rotabroach применяются для сверления материалов толщиной
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pagination-wrap">
+                        <ul class="pagination">
+                            <li class="pagination-prev lateral-page">
+                                <a class="pagination__text" aria-label="Previous" href="#"><span
+                                        class="button-arrows">«</span> Назад </a>
+                            </li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li class="active"><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">6</a></li>
+                            <li><a href="#">7</a></li>
+                            <li class="pagination-next lateral-page">
+                                <a class="pagination__text" aria-label="Next" href="#">Вперед <span
+                                        class="button-arrows">»</span></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="catalog-description">
+                        <h2>Подзаголовок в разделе</h2>
+
+                        <div class="catalog-text clearfix">
+                            <div class="catalog-img__left">
+                                <img src="image/base/catalog-machine-1.png" alt="">
+                            </div>
+                            <div class="catalog-text__right">
+                                <div class="catalog__important-info">
+                                    <p>
+                                        Среди наших аксессуаров переходные конические втулки для крепления кольцевых
+                                        сверл с коническим хвостовиком, сверлильные патроны для режущих инструментов с
+                                        цилиндрическим хвостовиком, удлинительные шпиндели фиксированной длины,
+                                        смазочно-охлаждающие жидкости и пасты на минеральной основе, приспособления для
+                                        правильной установки и закрепления магнитного сверлильного станка на
+                                        цилиндрических и не намагничиваемых поверхностях.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-text">
+                            <p>
+                                Аксессуары разработаны с учетом высоких стандартов английского бренда и рассчитаны на
+                                использование с магнитными сверлильными станками Rotabroach.
+                            </p>
+
+                            <p>
+                                Применение установленных производителем принадлежностей и СОЖ:
+                            </p>
+                            <ul>
+                                <li>предотвращает преждевременный износ деталей</li>
+                                <li>продлевает срок службы инструмента.</li>
+                            </ul>
+                            <p>
+                                Ненадлежащее техническое обслуживание может привести к уменьшению установленного срока
+                                службы. Чтобы купить аксессуары и дополнительное оборудование для магнитного станка
+                                Rotabroach, свяжитесь с менеджером по указанному телефону или посетите офис компании
+                                Rotabroach в Санкт-Петербурге.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </div>
 
