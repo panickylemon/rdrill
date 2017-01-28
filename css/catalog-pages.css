@@ -667,3 +667,10 @@ tr.sorting-model__item {
     border-bottom: 1px dashed red;
     cursor: pointer;
 }
+
+
+.wrap-card{
+    width: 30%;
+}
+
+

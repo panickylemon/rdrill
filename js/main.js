@@ -89,7 +89,6 @@ $(document).ready(function () {
     $('textarea').autoResize();
 
     $(".pagination").rPage();
-
     $(".page-away-0.active").nextAll('li').addClass('next-li');
 
 
@@ -140,3 +139,4 @@ $(document).ready(function () {
     initSticky()
 
 });
+

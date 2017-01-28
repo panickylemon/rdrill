@@ -84,7 +84,7 @@
 
 @media screen and (min-width: 841px){
     .filter-sidebar {
-        display: block;
+        display: block !important;
     }
 
 }
