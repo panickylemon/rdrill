@@ -136,7 +136,20 @@ $(document).ready(function () {
     $('.table-responsive').scroll( function() {
         initSticky()
     });
-    initSticky()
+    initSticky();
+
+        $('.card-slider').bxSlider({
+            mode: 'vertical',
+            slideWidth: 300,
+            minSlides: 2,
+            slideMargin: 10
+        });
+
+    $( "a.thumb" ).click(function() {
+        $("#main-image").attr("src", $(this).attr("href"));
+        $("#main-image-link").attr("href", $(this).attr("href"));
+        return false
+    })
 
 });
 

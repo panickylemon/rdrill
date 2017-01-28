@@ -16,6 +16,8 @@
     <link rel='stylesheet' href='plugins/css/easy-responsive-tabs.css'>
     <link rel='stylesheet' href='plugins/css/bootstrap-select.min.css'>
     <link rel='stylesheet' href='plugins/css/build.css'>
+    <link rel='stylesheet' href='plugins/css/jquery.bxslider.css'>
+    <link rel='stylesheet' href='plugins/lightbox/css/lightbox.css'>
     <link rel='stylesheet' href='css/typography.css'>
     <link rel='stylesheet' href='css/base.css'>
     <link rel='stylesheet' href='css/header.css'>
@@ -36,6 +38,8 @@
     <script src="plugins/js/parsley.js"></script>
     <script src="plugins/js/jquery.stickytableheaders.min.js"></script>
     <script src="plugins/js/ru.js"></script>
+    <script src="plugins/js/jquery.bxslider.min.js"></script>
+    <script src="plugins/lightbox/js/lightbox.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body>
@@ -376,44 +380,21 @@
                 <div class="wrap-card">
                     <div id="card-product-slider" >
 
-                        <!--<div class="news-slider__item">-->
-                            <!--<a class="news-slider__item-link">-->
-                                <!--<img class="news-slider__image" src="image/base/news-home.png" alt="">-->
-                            <!--</a>-->
-                        <!--</div>-->
-
-                        <!--<div class="news-slider__item">-->
-                            <!--<a class="news-slider__item-link">-->
-                                <!--<img class="news-slider__image" src="image/base/news-example2.png" alt="">-->
-                            <!--</a>-->
-                        <!--</div>-->
-
-                        <!--<div class="news-slider__item">-->
-                            <!--<a class="news-slider__item-link">-->
-                                <!--<img class="news-slider__image" src="image/base/news-home.png" alt="">-->
-                            <!--</a>-->
-                        <!--</div>-->
-
-                        <!--<div class="news-slider__item">-->
-                            <!--<a class="news-slider__item-link">-->
-                                <!--<img class="news-slider__image" src="image/base/news-home.png" alt="">-->
-                            <!--</a>-->
-                        <!--</div>-->
-
-                        <!--<div class="news-slider__item">-->
-                            <!--<a class="news-slider__item-link">-->
-                                <!--<img class="news-slider__image" src="image/base/news-home.png" alt="">-->
-                            <!--</a>-->
-                        <!--</div>-->
-
-
-                    <!--</div>-->
-                    <!--<div class="owl-thumbs" data-slider-id="1">-->
-                        <!--<button class="owl-thumb-item">slide 1</button>-->
-                        <!--<button class="owl-thumb-item">slide 2</button>-->
-                        <!--<button class="owl-thumb-item">slide 3</button>-->
-                        <!--<button class="owl-thumb-item">slide 4</button>-->
-                    <!--</div>-->
+                        <ul class="card-slider">
+                            <li><a href="image/base/advantages-1.png" data-lightbox="images" class="thumb"><img
+                                    src="image/products/product-home-2.png" />rgrg</a></li>
+                            <li><a href="image/base/advantages-2.png" data-lightbox="images" class="thumb"><img
+                                    src="image/products/product-home-3.png" />grt</a></li>
+                            <li><a href="image/base/advantages-3.png" data-lightbox="images" class="thumb"><img
+                                    src="image/products/product-home-4.png" /></a></li>
+                            <li><a href="image/products/product-home-5.png" data-lightbox="images" class="thumb"><img
+                                    src="image/products/product-home-5.png" /></a></li>
+                        </ul>
+                        <div>
+                            <a id="main-image-link" href="image/products/product-home-5.png" data-lightbox="images">
+                                <img id="main-image" src="image/products/product-home-5.png" />
+                            </a>
+                        </div>
 
 
                     </div>
