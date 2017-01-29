@@ -2,6 +2,26 @@
     .filter-content {
         margin-left: 280px;
     }
+
+    .card-main-text {
+        width: 60%;
+        padding: 35px;
+    }
+
+    #card-product-slider {
+        width: 40%;
+        top: 45px;
+    }
+
+    .card-photo {
+        margin: 10px 20px 10px 120px;
+    }
+
+    .bx-wrapper .bx-viewport {
+        height: 340px !important;
+    }
+
+
 }
 
 @media screen and (max-width: 1060px) {
@@ -20,6 +40,43 @@
     .catalog-product:nth-child(2n) .catalog-product__content{
         float: right;
     }
+}
+
+@media screen and (max-width: 1000px) {
+    #card-product-slider {
+        float: none;
+        width: 100%;
+        top: 10px;
+    }
+
+    .card-main-text {
+        width: 100%;
+        float: none;
+        height: auto;
+        margin: 40px 0 0;
+        padding: 35px 0;
+        border: none;
+    }
+
+    .card-main-info {
+        height: auto;
+        border: none;
+    }
+
+    .card-photo {
+        float: none;
+        position: static;
+        margin: 10px auto;
+    }
+
+    .bx-wrapper .bx-viewport {
+        margin-top: 20px;
+    }
+
+    .bx-wrapper .bx-prev {
+        top: 0;
+    }
+
 }
 
 @media screen and (max-width: 960px) {
@@ -134,6 +191,15 @@
         margin: 15px 0;
         display: block;
     }
+
+    .card-main-characteristics {
+        font-size: 14px;
+    }
+
+    .product-price__number {
+        font-size: 40px;
+    }
+
 }
 
 @media screen and (max-width: 580px) {
@@ -164,6 +230,26 @@
         max-width: 95%;
     }
 
+    .card-photo {
+        margin-left: 120px;
+    }
+
+    .card-main-characteristics td{
+        padding: 5px;
+    }
+
+    .wrap-give-feedback {
+        float: none;
+        padding: 20px 0 0;
+        text-align: left;
+    }
+
+    .product-price {
+        float: none;
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -172,6 +258,35 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    .bx-wrapper .bx-viewport {
+        height: 250px !important;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .bx-wrapper .bx-viewport {
+        height: 170px !important;
+    }
+
+    .card-photo {
+        margin-left: 110px;
+    }
+
+    .button-buy {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+
+    .product-price {
+        margin: 0;
+    }
+
+    .instructions-product {
+        margin: 20px 0 0;
+    }
+}
 
 @media screen and (max-width: 300px) {
     .button-filter-reset {
@@ -181,6 +296,7 @@
     .button-filter{
         width: 100%;
     }
+
 }
 
 

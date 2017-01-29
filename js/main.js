@@ -149,7 +149,9 @@ $(document).ready(function () {
         });
 
     lightbox.option({
-        'wrapAround': true
+        'wrapAround': true,
+        'disableScrolling': true,
+        'fitImagesInViewport': true
     });
 
     $( "a.thumb" ).click(function() {
