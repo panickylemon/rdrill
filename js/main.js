@@ -140,16 +140,25 @@ $(document).ready(function () {
 
         $('.card-slider').bxSlider({
             mode: 'vertical',
-            slideWidth: 300,
-            minSlides: 2,
+            slideWidth: 74,
+            minSlides: 5,
+            nextText: '',
+            prevText: '',
+            pager: false,
             slideMargin: 10
         });
+
+    lightbox.option({
+        'wrapAround': true
+    });
 
     $( "a.thumb" ).click(function() {
         $("#main-image").attr("src", $(this).attr("href"));
         $("#main-image-link").attr("href", $(this).attr("href"));
+        $('.active-thumb').removeClass('active-thumb');
+        $(this).addClass('active-thumb');
         return false
-    })
+    });
 
 });
 
