@@ -67,6 +67,29 @@ $(document).ready(function () {
         }
     });
 
+    $('#other-product-slider').owlCarousel({
+        loop: true,
+        nav: true,
+        dots: false,
+        navText: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            481: {
+                items: 2
+            },
+            861: {
+                items: 3
+            },
+            1140: {
+                items: 4
+            }
+        }
+    });
+
+
+
 
     // Tab
     $('#productsTab').easyResponsiveTabs({

@@ -1,9 +1,9 @@
 @media screen and (max-width: 1270px) {
-    .news-slider .owl-prev {
+    .news-slider .owl-prev, .other-product-slider .owl-prev {
         left: -18px;
     }
 
-    .news-slider .owl-next {
+    .news-slider .owl-next, .other-product-slider .owl-next{
         right: -18px;
     }
 }
