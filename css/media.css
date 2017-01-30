@@ -758,6 +758,10 @@
         margin: 0 0 50px;
     }
 
+    .other-news__title:before, .other-news__title:after {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 560px) {
@@ -786,9 +790,6 @@
         margin: 40px 0 50px;
     }
 
-    .other-news__title:before, .other-news__title:after {
-        display: none;
-    }
 
     .news-item__director-text {
         font-size: 14px;

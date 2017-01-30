@@ -1116,6 +1116,8 @@ img.thumbnail {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     max-width: 80%;
+    width: auto !important;
+    max-height: 85%;
     padding: 20px;
     margin: auto;
 }
