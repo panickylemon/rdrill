@@ -42,6 +42,17 @@
         border: 1px solid #e9eff1;
     }
 
+    .video-container-2 {
+        float: none;
+        max-width: 600px;
+        margin: 0;
+    }
+
+    .text-with-useful {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 1060px) {
@@ -174,6 +185,10 @@
         width: 100%;
         float: none;
     }
+
+    .characteristics-table{
+        padding-right: 40px;
+    }
 }
 
 @media screen and (min-width: 841px){
@@ -270,6 +285,12 @@
     .card-main-text {
         padding: 15px 0;
     }
+
+    .characteristics-table{
+        display: block;
+        margin-bottom: 20px;
+    }
+
 
 }
 
