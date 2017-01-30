@@ -97,6 +97,11 @@
         top: 0;
     }
 
+    .card-main-text--grey {
+        background: #ffffff;
+        font-weight: 300;
+    }
+
 }
 
 @media screen and (max-width: 960px) {
@@ -241,6 +246,31 @@
         padding-left: 0;
     }
 
+    .product-price {
+        float: none;
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .wrap-give-feedback {
+        position: static;
+        padding: 10px 0 0;
+        text-align: left;
+    }
+
+    .card-main-text--grey {
+        font-size: 15px;
+    }
+
+    .button-buy {
+        text-align: center;
+        padding: 14px 20px;
+    }
+
+    .card-main-text {
+        padding: 15px 0;
+    }
+
 }
 
 @media screen and (max-width: 580px) {
@@ -277,18 +307,6 @@
 
     .card-main-characteristics td{
         padding: 5px;
-    }
-
-    .wrap-give-feedback {
-        float: none;
-        padding: 20px 0 0;
-        text-align: left;
-    }
-
-    .product-price {
-        float: none;
-        width: 100%;
-        margin: 0 0 20px;
     }
 
     .other-product {
@@ -334,7 +352,7 @@
     }
 
     .product-price {
-        margin: 0;
+        margin: 0 0 10px;
     }
 
     .instructions-product {
