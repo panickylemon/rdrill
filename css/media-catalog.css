@@ -32,7 +32,7 @@
         width: 100%;
         float: none;
         margin-left: 0;
-         margin-right: 0;
+        margin-right: 0;
     }
 
     .useful-articles {
@@ -53,6 +53,13 @@
         width: 100%;
         margin: 0;
     }
+
+}
+
+@media screen and (max-width: 1185px) {
+    .banner-catalog {
+        height: 268px;
+    }
 }
 
 @media screen and (max-width: 1060px) {
@@ -68,7 +75,7 @@
         float: left;
     }
 
-    .catalog-product:nth-child(2n) .catalog-product__content{
+    .catalog-product:nth-child(2n) .catalog-product__content {
         float: right;
     }
 }
@@ -116,20 +123,19 @@
 }
 
 @media screen and (max-width: 960px) {
-    .banner-catalog {
-        padding: 35px 30px;
-    }
-
+    /*.banner-catalog {*/
+    /*padding: 35px 30px;*/
+    /*}*/
     .banner-catalog__title {
         line-height: 1.2;
         font-size: 26px;
     }
 
-    td.reset-options{
+    td.reset-options {
         text-align: left;
     }
 
-    .catalog-text p{
+    .catalog-text p {
         margin: 0 0 15px
     }
 
@@ -143,18 +149,18 @@
         margin-bottom: 20px;
     }
 
-    .catalog-description .catalog-img__left img{
+    .catalog-description .catalog-img__left img {
         margin: auto;
         width: 100%;
     }
 }
 
-@media screen and (max-width: 840px){
-    .button-show-filter{
+@media screen and (max-width: 840px) {
+    .button-show-filter {
         display: block;
     }
 
-    .catalog .contact-manager{
+    .catalog .contact-manager {
         display: none;
     }
 
@@ -186,41 +192,58 @@
         float: none;
     }
 
-    .characteristics-table{
+    .characteristics-table {
         padding-right: 40px;
     }
 }
 
-@media screen and (min-width: 841px){
+@media screen and (min-width: 841px) {
     .filter-sidebar {
         display: block !important;
     }
 
 }
 
-@media screen and (max-width: 767px){
-    .sorting-table td:first-child{
+@media screen and (max-width: 767px) {
+    .sorting-table td:first-child {
         min-width: 100px;
     }
 }
 
 @media screen and (max-width: 660px) {
     .banner-catalog {
-        display: none;
+        /*display: none;*/
+        background: none;
+        height: auto;
     }
 
-    .catalog h2{
+    .banner-inner {
+        background: none;
+        height: auto;
+        position: static;
+        padding: 35px 30px;
+    }
+
+    .banner-catalog__description {
+        max-width: 100%;
+    }
+
+    .banner-catalog__title {
+        font-size: 22px;
+    }
+
+    .catalog h2 {
         font-size: 22px;
         margin: 20px 0 30px;
     }
 
-    .catalog-img__left, .catalog-img__right{
+    .catalog-img__left, .catalog-img__right {
         float: none;
         width: 100%;
         margin: 0 auto 20px;
     }
 
-    .catalog-img__left img, .catalog-img__right img{
+    .catalog-img__left img, .catalog-img__right img {
         display: block;
         margin: auto;
     }
@@ -286,11 +309,10 @@
         padding: 15px 0;
     }
 
-    .characteristics-table{
+    .characteristics-table {
         display: block;
         margin-bottom: 20px;
     }
-
 
 }
 
@@ -300,7 +322,7 @@
         float: none !important;
     }
 
-    .catalog-product__content{
+    .catalog-product__content {
         width: 100%;
         height: auto;
         padding: 10px 10px 20px;
@@ -310,7 +332,7 @@
         float: none;
     }
 
-    .catalog-product:nth-child(2n) .catalog-product__content{
+    .catalog-product:nth-child(2n) .catalog-product__content {
         float: none;
     }
 
@@ -326,7 +348,7 @@
         margin-left: 120px;
     }
 
-    .card-main-characteristics td{
+    .card-main-characteristics td {
         padding: 5px;
     }
 
@@ -341,7 +363,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    .catalog-img__left img, .catalog-img__right img{
+    .catalog-img__left img, .catalog-img__right img {
         width: 100%;
     }
 
@@ -355,8 +377,26 @@
     .bx-wrapper .bx-viewport {
         height: 250px !important;
     }
-}
 
+    .banner-catalog__title {
+        max-width: 100%;
+        padding: 0;
+        border-left: none;
+    }
+
+    .banner-catalog__description {
+        display: none;
+    }
+
+    .banner-catalog{
+        border: none;
+        margin: 0 0 30px;
+    }
+
+    .banner-inner{
+        padding: 0;
+    }
+}
 
 @media screen and (max-width: 350px) {
     .bx-wrapper .bx-viewport {
@@ -386,7 +426,7 @@
         margin-left: 0;
     }
 
-    .button-filter{
+    .button-filter {
         width: 100%;
     }
 
