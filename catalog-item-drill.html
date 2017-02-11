@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>О компании</title>
+    <title>Карточка товара сверло</title>
     <meta name="keywords"
           content=" "/>
     <meta name="description"
@@ -15,13 +15,18 @@
     <link rel='stylesheet' href='plugins/css/owl.theme.default.min.css'>
     <link rel='stylesheet' href='plugins/css/easy-responsive-tabs.css'>
     <link rel='stylesheet' href='plugins/css/bootstrap-select.min.css'>
+    <link rel='stylesheet' href='plugins/css/build.css'>
+    <link rel='stylesheet' href='plugins/css/jquery.bxslider.css'>
+    <link rel='stylesheet' href='plugins/lightbox/css/lightbox.css'>
     <link rel='stylesheet' href='css/typography.css'>
     <link rel='stylesheet' href='css/base.css'>
     <link rel='stylesheet' href='css/header.css'>
     <link rel='stylesheet' href='css/footer.css'>
     <link rel='stylesheet' href='css/modals.css'>
     <link rel='stylesheet' href='css/pages.css'>
+    <link rel='stylesheet' href='css/catalog-pages.css'>
     <link rel='stylesheet' href='css/media.css'>
+    <link rel='stylesheet' href='css/media-catalog.css'>
     <script src="js/jquery-2.0.0.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="plugins/js/jquery.placeholder.js"></script>
@@ -31,10 +36,15 @@
     <script src="plugins/js/responsive-paginate.js"></script>
     <script src="plugins/js/bootstrap-select.min.js"></script>
     <script src="plugins/js/parsley.js"></script>
+    <script src="plugins/js/jquery.stickytableheaders.min.js"></script>
     <script src="plugins/js/ru.js"></script>
+    <script src="plugins/js/jquery.bxslider.min.js"></script>
+    <script src="plugins/lightbox/js/lightbox.js"></script>
+    <script src="plugins/js/video.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body>
+
 
 <div class="l-wrapper">
     <!--—BEGIN HEADER -->
@@ -358,184 +368,441 @@
         <div class="l-container">
             <ul class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Главная</a></li>
-                <li class="breadcrumb-item active">О компании</li>
+                <li class="breadcrumb-item"><a href="#">Каталог продукции</a></li>
+                <li class="breadcrumb-item"><a href="#">Сверла</a></li>
+                <li class="breadcrumb-item active">Сверла из быстрорежущей стали - глубина сверления 30 мм</li>
             </ul>
         </div>
-        <div class="l-container about-page">
-            <h1>О компании</h1>
-            <p class="about-page__text">
-                Компания «Портал» предлагает купить сверлильные станки, инструменты и приспособления английской марки
-                Rotabroach для образования и последующей обработки отверстий в стальных изделиях. Это выполненная
-                брендом с сорокалетней историей продукция с повышенными эксплуатационными качествами, которая популярна
-                в 53 странах мира.
-            </p>
 
-            <div class="about-page__wrap-menu clearfix">
-                <div class="about-navigation__item about-navigation__item-first">
-                    <span class="delimiter-about delimiter-about-1"></span>
-                    <span class="delimiter-about delimiter-about-2"></span>
-                    <span class="delimiter-about delimiter-about-3"></span>
-                    <span class="delimiter-about delimiter-about-4"></span>
-                    <a class="about-navigation__link" href="#">
-                        <div class="about-navigation__image about-navigation__image-brand"></div>
-                        <p class="about-navigation__title">
-                            О бренде Rotabroach
-                        </p>
-                        <span class="delimiter-about-link delimiter-about-link-1"></span>
-                        <span class="delimiter-about-link delimiter-about-link-2"></span>
-                        <span class="delimiter-about-link delimiter-about-link-3"></span>
-                        <span class="delimiter-about-link delimiter-about-link-4"></span>
-                    </a>
-                </div>
-                <div class="about-navigation__item about-navigation__item-middle">
-                    <span class="delimiter-about delimiter-about-1"></span>
-                    <span class="delimiter-about delimiter-about-2"></span>
-                    <span class="delimiter-about delimiter-about-3"></span>
-                    <span class="delimiter-about delimiter-about-4"></span>
-                    <a class="about-navigation__link" href="#">
-                        <div class="about-navigation__image about-navigation__image-quality"></div>
-                        <p class="about-navigation__title">
-                            Качество Rotabroach
-                        </p>
-                        <span class="delimiter-about-link delimiter-about-link-1"></span>
-                        <span class="delimiter-about-link delimiter-about-link-2"></span>
-                        <span class="delimiter-about-link delimiter-about-link-3"></span>
-                        <span class="delimiter-about-link delimiter-about-link-4"></span>
-                    </a>
-                </div>
-                <div class="about-navigation__item about-navigation__item-third">
-                    <span class="delimiter-about delimiter-about-1"></span>
-                    <span class="delimiter-about delimiter-about-2"></span>
-                    <span class="delimiter-about delimiter-about-3"></span>
-                    <span class="delimiter-about delimiter-about-4"></span>
-                    <a class="about-navigation__link" href="#">
-                        <div class="about-navigation__image about-navigation__image-technologies"></div>
-                        <p class="about-navigation__title">
-                            Технологии Custmart
-                        </p>
-                        <span class="delimiter-about-link delimiter-about-link-1"></span>
-                        <span class="delimiter-about-link delimiter-about-link-2"></span>
-                        <span class="delimiter-about-link delimiter-about-link-3"></span>
-                        <span class="delimiter-about-link delimiter-about-link-4"></span>
-                    </a>
-                </div>
+        <div class="catalog catalog-item">
 
-                <div class="about-navigation__item about-navigation__item-first">
-                    <span class="delimiter-about delimiter-about-1"></span>
-                    <span class="delimiter-about delimiter-about-2"></span>
-                    <span class="delimiter-about delimiter-about-3"></span>
-                    <span class="delimiter-about delimiter-about-4"></span>
-                    <a class="about-navigation__link" href="#">
-                        <div class="about-navigation__image about-navigation__image-guarantee"></div>
-                        <p class="about-navigation__title">
-                            Гарантия
-                        </p>
-                        <span class="delimiter-about-link delimiter-about-link-1"></span>
-                        <span class="delimiter-about-link delimiter-about-link-2"></span>
-                        <span class="delimiter-about-link delimiter-about-link-3"></span>
-                        <span class="delimiter-about-link delimiter-about-link-4"></span>
-                    </a>
-                </div>
-                <div class="about-navigation__item about-navigation__item-middle">
-                    <span class="delimiter-about delimiter-about-1"></span>
-                    <span class="delimiter-about delimiter-about-2"></span>
-                    <span class="delimiter-about delimiter-about-3"></span>
-                    <span class="delimiter-about delimiter-about-4"></span>
-                    <a class="about-navigation__link" href="#">
-                        <div class="about-navigation__image about-navigation__image-news"></div>
-                        <p class="about-navigation__title">
-                            Новости
-                        </p>
-                        <span class="delimiter-about-link delimiter-about-link-1"></span>
-                        <span class="delimiter-about-link delimiter-about-link-2"></span>
-                        <span class="delimiter-about-link delimiter-about-link-3"></span>
-                        <span class="delimiter-about-link delimiter-about-link-4"></span>
-                    </a>
-                </div>
-                <div class="about-navigation__item about-navigation__item-third">
-                    <span class="delimiter-about delimiter-about-1"></span>
-                    <span class="delimiter-about delimiter-about-2"></span>
-                    <span class="delimiter-about delimiter-about-3"></span>
-                    <span class="delimiter-about delimiter-about-4"></span>
-                    <a class="about-navigation__link" href="#">
-                        <div class="about-navigation__image about-navigation__image-representation"></div>
-                        <p class="about-navigation__title">
-                            Представительство в России
-                        </p>
-                        <span class="delimiter-about-link delimiter-about-link-1"></span>
-                        <span class="delimiter-about-link delimiter-about-link-2"></span>
-                        <span class="delimiter-about-link delimiter-about-link-3"></span>
-                        <span class="delimiter-about-link delimiter-about-link-4"></span>
-                    </a>
-                </div>
+            <div class="l-container">
+                <div class="wrap-card">
+                    <h1>Сверла из быстрорежущей стали - глубина
+                        сверления 30 мм</h1>
 
-                <div class="about-navigation__item about-navigation__item-first">
-                    <span class="delimiter-about delimiter-about-1"></span>
-                    <span class="delimiter-about delimiter-about-2"></span>
-                    <span class="delimiter-about delimiter-about-3"></span>
-                    <span class="delimiter-about delimiter-about-4"></span>
-                    <a class="about-navigation__link" href="#">
-                        <div class="about-navigation__image about-navigation__image-review"></div>
-                        <p class="about-navigation__title">
-                            Отзывы клиентов
-                        </p>
-                        <span class="delimiter-about-link delimiter-about-link-1"></span>
-                        <span class="delimiter-about-link delimiter-about-link-2"></span>
-                        <span class="delimiter-about-link delimiter-about-link-3"></span>
-                        <span class="delimiter-about-link delimiter-about-link-4"></span>
-                    </a>
-                </div>
-                <div class="about-navigation__item about-navigation__item-middle">
-                    <span class="delimiter-about delimiter-about-1"></span>
-                    <span class="delimiter-about delimiter-about-2"></span>
-                    <span class="delimiter-about delimiter-about-3"></span>
-                    <span class="delimiter-about delimiter-about-4"></span>
-                    <a class="about-navigation__link" href="#">
-                        <div class="about-navigation__image about-navigation__image-conditions"></div>
-                        <p class="about-navigation__title">
-                            Условия сотрудничества
-                        </p>
-                        <span class="delimiter-about-link delimiter-about-link-1"></span>
-                        <span class="delimiter-about-link delimiter-about-link-2"></span>
-                        <span class="delimiter-about-link delimiter-about-link-3"></span>
-                        <span class="delimiter-about-link delimiter-about-link-4"></span>
-                    </a>
-                </div>
-                <div class="about-navigation__item about-navigation__item-third">
-                    <span class="delimiter-about delimiter-about-1"></span>
-                    <span class="delimiter-about delimiter-about-2"></span>
-                    <span class="delimiter-about delimiter-about-3"></span>
-                    <span class="delimiter-about delimiter-about-4"></span>
-                    <a class="about-navigation__link" href="#">
-                        <div class="about-navigation__image about-navigation__image-news"></div>
-                        <p class="about-navigation__title">
-                            Статьи
-                        </p>
-                        <span class="delimiter-about-link delimiter-about-link-1"></span>
-                        <span class="delimiter-about-link delimiter-about-link-2"></span>
-                        <span class="delimiter-about-link delimiter-about-link-3"></span>
-                        <span class="delimiter-about-link delimiter-about-link-4"></span>
-                    </a>
-                </div>
+                    <div class="card-main-info">
+                        <div id="card-product-slider" class="clearfix">
+                            <ul class="card-slider">
+                                <li>
+                                    <a href="image/products/Element-40/Element-40-side-view.jpg" data-lightbox="images"
+                                       class="thumb">
+                                        <img src="image/products/Element-40/Element-40-side-view.jpg"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="image/products/Element-40/Element-40-front-view.jpg" data-lightbox="images"
+                                       class="thumb">
+                                        <img src="image/products/Element-40/Element-40-front-view.jpg"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="image/products/Element-40/Element-40-rear-view.jpg" data-lightbox="images"
+                                       class="thumb">
+                                        <img src="image/products/Element-40/Element-40-rear-view.jpg"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="image/products/Element-40/Element-40-bottle-and-gear-lever-view.jpg"
+                                       data-lightbox="images"
+                                       class="thumb">
+                                        <img src="image/products/Element-40/Element-40-bottle-and-gear-lever-view.jpg"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="image/products/Element-40/Element-40-rear-view.jpg" data-lightbox="images"
+                                       class="thumb">
+                                        <img src="image/products/Element-40/Element-40-rear-view.jpg"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="image/products/Element-40/Element-40-bottle-and-gear-lever-view.jpg"
+                                       data-lightbox="images"
+                                       class="thumb">
+                                        <img src="image/products/Element-40/Element-40-bottle-and-gear-lever-view.jpg"/>
+                                    </a>
+                                </li>
 
-                <div class="about-navigation__item about-navigation__item-first">
-                    <span class="delimiter-about delimiter-about-1"></span>
-                    <span class="delimiter-about delimiter-about-2"></span>
-                    <span class="delimiter-about delimiter-about-3"></span>
-                    <span class="delimiter-about delimiter-about-4"></span>
-                    <a class="about-navigation__link" href="#">
-                        <div class="about-navigation__image about-navigation__image-sale"></div>
-                        <p class="about-navigation__title">
-                            Акции
-                        </p>
-                        <span class="delimiter-about-link delimiter-about-link-1"></span>
-                        <span class="delimiter-about-link delimiter-about-link-2"></span>
-                        <span class="delimiter-about-link delimiter-about-link-3"></span>
-                        <span class="delimiter-about-link delimiter-about-link-4"></span>
-                    </a>
+                            </ul>
+                            <div class="card-photo">
+                                <a id="main-image-link"
+                                   href="image/products/Element-40/Element-40-bottle-and-gear-lever-view.jpg"
+                                   data-lightbox="images">
+                                    <img id="main-image"
+                                         src="image/products/Element-40/Element-40-bottle-and-gear-lever-view.jpg"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-main-text card-main-text--grey">
+                            <div>
+                                <p>
+                                    Кольцевое сверло по металлу серии RAPTOR представляет собой полый режущий инструмент
+                                    для создания отверстий в углеродистых сталях. Идеальны для мягкой и конструкционной
+                                    стали.
+                                </p>
+                                <p>
+                                    Результаты испытаний подтвердили износ быстрорежущих кольцевых сверл Rotabroach на
+                                    35,5% меньше и время сверления 200 отверстий на 16,4% быстрее в сравнении с
+                                    быстрорезами других производителей.
+                                </p>
+                            </div>
+                            <div class="clearfix card-main-info__bottom">
+                                <div class="product-price">
+                                    <p class="product-price__text">Цена с НДС:</p>
+                                    <p class="product-price__number">101 690 <sup>руб</sup></p>
+                                    <a class="base-button base-button--red button-buy" href="#">Запросить коммерчесткое
+                                        предложение</a>
+                                </div>
+                                <div class="wrap-give-feedback">
+                                    <a class="base-button base-button--grey button-give-feedback" href="#">
+                                        <span class="button-star"></span>
+                                        Оставить отзыв
+                                    </a>
+                                    <!--<a class="instructions-product" href="#">-->
+                                    <!--<span>Инструкция к станку</span>-->
+                                    <!--</a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="clearfix">
+                        <h2>Характеристики</h2>
+                        <table class="catalog-base-table characteristics-table">
+                            <thead>
+                            <tr>
+                                <td>Артикул</td>
+                                <td>Ø мм</td>
+                                <td>Цена, руб</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>11</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>10</td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>13</td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>11</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>11</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>11</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>11</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>11</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>11</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>11</td>
+                                <td>1500</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <table class="catalog-base-table characteristics-table">
+                            <thead>
+                            <tr>
+                                <td>Артикул</td>
+                                <td>Ø мм</td>
+                                <td>Цена, руб</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>11</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>10</td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>13</td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>11</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>11</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>11</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>11</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>11</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>11</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>RAP110</td>
+                                <td>11</td>
+                                <td>1500</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <div class="video-container-2">
+                            <h2>Видео</h2>
+                            <div class="video-wrapper">
+                                <div id="player" data-video-id="ca6ARA4V0v4"></div>
+                                <div id="thumbnail_container" class="thumbnail_container">
+                                    <img class="thumbnail" id="thumbnail"
+                                         src="http://img.youtube.com/vi/ca6ARA4V0v4/sddefault.jpg" alt="превью"/>
+                                </div>
+                                <a class="start-video"><img src="image/icons/play.png" alt="play">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <h2>Описание конкретного товара</h2>
+                    <div class="clearfix">
+                        <div class="catalog-text text-with-useful">
+                            <p>
+                                Твердость металла <strong>≤ 900 Н/мм2</strong>
+                            </p>
+
+                            <p>
+                                Резак делает кольцевую канавку по периферии, оставляя сердцевину отверстия нетронутой.
+                                Правильная геометрия зубьев снижает крутящий момент и требования к мощности, бурение
+                                совершается без применения чрезмерной силы. Повышается эффективность операции, снижается
+                                время обработки, а высокое тепловое сопротивление обеспечивает длительный срок службы.
+                            </p>
+
+                            <p>
+                                Сверла кольцевые серии RAPTOR находят широкое применение в разных отраслях:
+                                строительство, машиностроение, горнодобывающая, нефтехимическая, нефтегазовая
+                                промышленность, судостроение и строительство железных дорог.
+                            </p>
+                        </div>
+                        <div class="useful-articles">
+                            <p class="useful-articles__title">Полезные статьи по теме</p>
+                            <div class="useful-articles__content">
+                                <a class="useful-articles__item" href="#"><span>Технология Cutsmart™</span></a>
+                                <a class="useful-articles__item" href="#"><span>Усовершенствованный редуктор</span></a>
+                                <a class="useful-articles__item" href="#"><span>12 месяцев гарантии</span></a>
+                                <a class="useful-articles__item" href="#"><span>Усовершенствованный редуктор редуктор  редуктор </span></a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+
+
+            <div class="other-product">
+                <div class="l-container">
+                    <p class="other-news__title">Дополнительные товары. Обратите внимание:</p>
+
+                    <!--—BEGIN SLIDER -->
+                    <div class="other-product-slider">
+                        <div id="other-product-slider" class="owl-carousel owl-theme">
+
+                            <div class="product-slider__item">
+                                <a class="product-slider__item-link">
+                                    <div class="product-slider__image">
+                                        <img src="image/products/drill-examle-1.png" alt="">
+                                    </div>
+                                    <p class="product-slider__title"><span>Фаскосъмники</span></p>
+                                </a>
+                            </div>
+                            <div class="product-slider__item">
+                                <a class="product-slider__item-link">
+                                    <div class="product-slider__image">
+                                        <img src="image/products/drill-examle-2.png" alt="">
+                                    </div>
+                                    <p class="product-slider__title">
+                                        <span>Переходники конус Морзе / Weldon 19,05</span></p>
+                                </a>
+                            </div>
+                            <div class="product-slider__item">
+                                <a class="product-slider__item-link">
+                                    <div class="product-slider__image">
+                                        <img src="image/products/drill-examle-3.png" alt="">
+                                    </div>
+                                    <p class="product-slider__title"><span>Удлинительные шпиндели</span></p>
+                                </a>
+                            </div>
+                            <div class="product-slider__item">
+                                <a class="product-slider__item-link">
+                                    <div class="product-slider__image">
+                                        <img src="image/products/drill-examle-1.png" alt="">
+                                    </div>
+                                    <p class="product-slider__title"><span>Адаптеры под спиральные сверла</span></p>
+                                </a>
+                            </div>
+                            <div class="product-slider__item">
+                                <a class="product-slider__item-link">
+                                    <div class="product-slider__image">
+                                        <img src="image/products/drill-examle-2.png" alt="">
+                                    </div>
+                                    <p class="product-slider__title"><span>Удлинительные шпиндели</span></p>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--—END SLIDER -->
+
+                </div>
+            </div>
+
+            <div class="l-container">
+                <div class="review-wrap">
+                    <h2 class="review-title">Отзывы</h2>
+                    <p class="review-number"><span>2</span></p>
+                    <div class="review-item">
+                        <p class="review-name">
+                            Имя Фамилия
+                        </p>
+                        <div class="wrap-review-rating">
+                            <div class="wrap-review-stars">
+                                <span class="review-star-item review-rating-red"></span>
+                                <span class="review-star-item review-rating-red"></span>
+                                <span class="review-star-item review-rating-red"></span>
+                                <span class="review-star-item review-rating-half"></span>
+                                <span class="review-star-item review-rating-grey"></span>
+                            </div>
+                            <p class="review-rating-number">3,5</p>
+                        </div>
+
+                        <p class="review-subtitle">Достоинства:</p>
+                        <p>
+                            Не следует, однако забывать, что консультация с широким активом влечет за собой процесс
+                            внедрения и модернизации форм развития. Товарищи! рамки и место обучения кадров представляет
+                            собой интересный эксперимент проверки модели развития.
+                        </p>
+                        <p class="review-subtitle">Недостатки:</p>
+                        <p>
+                            Нет.
+                        </p>
+                        <p class="review-subtitle">Отзыв:</p>
+                        <p>
+                            Не следует, однако забывать, что консультация с широким активом влечет за собой процесс
+                            внедрения и модернизации форм развития. Товарищи! рамки и место обучения кадров представляет
+                            собой интересный эксперимент проверки модели развития. Повседневная практика показывает, что
+                            сложившаяся структура организации позволяет оценить значение направлений прогрессивного
+                            развития. Таким образом постоянный количественный рост и сфера нашей активности требуют
+                            определения и уточнения существенных финансовых и административных условий. Равным образом
+                            реализация намеченных плановых заданий требуют от нас анализа направлений прогрессивного
+                            развития.
+                        </p>
+                    </div>
+
+                    <div class="review-item">
+                        <p class="review-name">
+                            Имя Фамилия
+                        </p>
+                        <div class="wrap-review-rating">
+                            <div class="wrap-review-stars">
+                                <span class="review-star-item review-rating-red"></span>
+                                <span class="review-star-item review-rating-red"></span>
+                                <span class="review-star-item review-rating-red"></span>
+                                <span class="review-star-item review-rating-red"></span>
+                                <span class="review-star-item review-rating-half"></span>
+                            </div>
+                            <p class="review-rating-number">4,5</p>
+                        </div>
+
+                        <p class="review-subtitle">Достоинства:</p>
+                        <p>
+                            Не следует, однако забывать, что консультация с широким активом влечет за собой процесс
+                            внедрения и модернизации форм развития. Товарищи! рамки и место обучения кадров представляет
+                            собой интересный эксперимент проверки модели развития.
+                        </p>
+                        <p class="review-subtitle">Недостатки:</p>
+                        <p>
+                            Нет.
+                        </p>
+                        <p class="review-subtitle">Отзыв:</p>
+                        <p>
+                            Не следует, однако забывать, что консультация с широким активом влечет за собой процесс
+                            внедрения и модернизации форм развития. Товарищи! рамки и место обучения кадров представляет
+                            собой интересный эксперимент проверки модели развития. Повседневная практика показывает, что
+                            сложившаяся структура организации позволяет оценить значение направлений прогрессивного
+                            развития. Таким образом постоянный количественный рост и сфера нашей активности требуют
+                            определения и уточнения существенных финансовых и административных условий. Равным образом
+                            реализация намеченных плановых заданий требуют от нас анализа направлений прогрессивного
+                            развития.
+                        </p>
+                    </div>
+
+                    <a class="base-button base-button--grey button-give-feedback" href="#">
+                        <span class="button-star"></span>
+                        Оставить свой отзыв
+                    </a>
+
+                    <div class="wrap-button-more">
+                        <a class="button-more-review" href="#">Показать еще отзывы</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="marketing-block marketing-block-2">
+                <div class="marketing-block__container">
+                    <div class="l-container marketing-block__content">
+                        <p class="marketing-block__text">У Вас есть вопросы?</p>
+
+                        <p class="marketing-block__text">Свяжитесь с нашим менеджером по продажам</p>
+                        <a class="base-button base-button--red marketing-block__button" href="#">
+                            Связаться с менеджером
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
     </main>
 </div>
 
