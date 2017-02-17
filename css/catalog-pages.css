@@ -984,7 +984,7 @@ tr.sorting-model__item {
 
 .contents-delivery-img {
     width: 30%;
-    float: left;
+    float: right;
 }
 
 
@@ -994,6 +994,7 @@ tr.sorting-model__item {
     float: left;
     width: 100%;
     max-width: 300px;
+    margin-right: 50px;
 }
 
 .video-container-2 {
@@ -1088,7 +1089,6 @@ img.thumbnail {
 .video-list {
     width: 45%;
     float: left;
-    margin-left: 50px;
 }
 
 .useful-articles {
