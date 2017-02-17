@@ -219,8 +219,12 @@ input.b-search__expand:focus::-moz-placeholder {
 / / remove the gap so it doesn 't close
 }
 
-.header__menu-item:hover .header__menu-link, .header__menu-item:focus .header__menu-link, .header__menu-link--active {
+.header__menu-item:hover .header__menu-link, .header__menu-item:focus .header__menu-link, .header__menu-item.current-menu-item, .current-page-parent {
 	background: #fc0013;
+	color: #ffffff;
+}
+
+.current-menu-item a, .current-page-parent a{
 	color: #ffffff;
 }
 
