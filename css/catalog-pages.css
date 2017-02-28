@@ -195,7 +195,11 @@ input:disabled + label:hover {
     background: url("../image/icons/sorting-arrows.png") no-repeat 100% 0;
 }
 
-.buttons-sorting__top:hover, .buttons-sorting__top.active {
+/*.buttons-sorting__top:hover, .buttons-sorting__top.active {*/
+    /*background: url("../image/icons/sorting-arrows.png") no-repeat 0 0;*/
+/*}*/
+
+.buttons-sorting__top.active {
     background: url("../image/icons/sorting-arrows.png") no-repeat 0 0;
 }
 
@@ -204,7 +208,11 @@ input:disabled + label:hover {
     background: url("../image/icons/sorting-arrows.png") no-repeat 33% 0;
 }
 
-.buttons-sorting__bottom:hover, .buttons-sorting__bottom.active {
+/*.buttons-sorting__bottom:hover, .buttons-sorting__bottom.active {*/
+     /*background: url("../image/icons/sorting-arrows.png") no-repeat 68% 0;*/
+/*}*/
+
+.buttons-sorting__bottom.active {
     background: url("../image/icons/sorting-arrows.png") no-repeat 68% 0;
 }
 
