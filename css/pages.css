@@ -583,11 +583,11 @@ h2.resp-accordion:first-child, h2.resp-accordion {
     color: #fc0013;
 }
 
-.about-active {
+.about-active, .about-sidebar__list .current-menu-item a{
     color: #fc0013;
 }
 
-.about-active:before {
+.about-active:before, .about-sidebar__list .current-menu-item:before {
     position: absolute;
     left: -17px;
     bottom: 3px;
@@ -1078,6 +1078,7 @@ h2.resp-accordion:first-child, h2.resp-accordion {
 
 /* END NEWS PAGE */
 
+
 /* BEGIN ABOUT PAGE */
 
 .about-page h1, .page-title {
@@ -1458,7 +1459,7 @@ p.brand-content__main-paragraph {
 }
 
 /*.partnership-page strong {*/
-    /*font-weight: 900;*/
+/*font-weight: 900;*/
 /*}*/
 
 .partnership-page ol h2{
