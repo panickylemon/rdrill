@@ -1106,6 +1106,13 @@ h2.resp-accordion:first-child, h2.resp-accordion {
     margin: 0 !important;
 }
 
+.instructions-item:after{
+    content: "";
+    height: 50px;
+    width: 55px;
+    background: url("../image/base/pdf_icon.png") no-repeat;
+}
+
 .about-page h1, .page-title {
     margin: -10px 0 30px;
 }
